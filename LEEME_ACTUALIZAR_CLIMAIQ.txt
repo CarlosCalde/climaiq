@@ -1,0 +1,50 @@
+CLIMAIQ 3.0 - CARLOS CALDERON
+CLIMATIZACIÓN Y REFRIGERACIÓN
+TELÉFONO: 75310363
+
+QUÉ INCLUYE
+- Mantenimiento preventivo: 10 actividades con procedimientos desplegables.
+- Mantenimiento correctivo: 12 actividades y verificación técnica.
+- Instalaciones y reubicaciones: 12 actividades.
+- Biblioteca de guías basada en dos PDF escaneados (23 y 7 páginas).
+- Dos PDF comprimidos para consulta desde la app, también disponible sin internet una vez almacenados en caché.
+- Clientes y equipos: ficha y registro de intervenciones por equipo.
+- Registro de técnicos, teléfono, costo, tareas y observaciones por servicio.
+- Fotografías antes/después de intervención, guardadas localmente en IndexedDB.
+- Informe imprimible como PDF desde Safari o computadora.
+- Exportar / restaurar respaldo de clientes y servicios CON FOTOS.
+- Conserva diagnóstico, 100 fichas, presupuestos y agenda de la app anterior.
+
+ACTUALIZACIÓN EN TU GITHUB PAGES
+1. Abre https://github.com/CarlosCalde/climaiq (verifica la dirección de tu cuenta si cambia).
+2. En tu computadora, extrae el ZIP.
+3. En la sección Code del repositorio, abre Add file -> Upload files.
+4. Carga todos los archivos del paquete en la RAÍZ (no una carpeta 'ClimaIQ' dentro de otra).
+5. Conserva la estructura de las carpetas assets y guias. Deben contener sus ficheros originales.
+6. Confirma el cambio con Commit changes.
+7. Espera a que termine el deploy en Settings -> Pages o Actions.
+8. Abre https://carloscalde.github.io/climaiq/ y recarga. En iPhone cierra y vuelve a abrir ClimaIQ.
+9. No borres los datos de Safari; el historial anterior depende del almacenamiento local del mismo dominio.
+
+IMPORTANTE: Los PDF escaneados incluidos se harán PÚBLICOS si los subes a un repositorio público.
+Publícalos solo si tienes autorización del titular de sus derechos. De lo contrario,
+solicita una versión sin PDF original (las guías propias desplegables pueden permanecer).
+
+RESPALDO
+- ClimaIQ -> Informes de servicio -> Exportar respaldo con fotos.
+- Para presupuestos, agenda y diagnósticos anteriores, usa Ajustes -> Respaldo completo.
+Son respaldos distintos por ahora. Guárdalos fuera del iPhone, por ejemplo en Archivos/iCloud Drive.
+- La desinstalación de la web app, el borrado de datos del navegador o la falta de espacio
+pueden borrar datos locales. Las fotografías no se sincronizan automáticamente.
+
+NOTAS SOBRE IA Y SEGURIDAD
+- La IA en línea no se activa simplemente subiendo este ZIP a GitHub Pages:
+necesita un backend seguro y credenciales de acceso.
+- Los contenidos técnicos se basan en documentos aportados, con advertencias y correcciones
+sobre presiones, refrigerantes, operaciones de vacío, códigos de error y electricidad.
+- No emplees estos pasos como sustituto de manual OEM o entrenamiento profesional.
+- No se deben atribuir fallas a presión aislada ni cargar por tiempo, ni puentear protecciones.
+
+TARIFARIO
+- Precios iniciales editables en Bs tomados de cotizacion.pdf entregado por el usuario.
+- No representan precios actuales contrastados para todos los proveedores de Santa Cruz.
