@@ -1,5 +1,5 @@
 /* ClimaIQ 4.5 - Caché offline de la aplicación. Rutas relativas para GitHub Pages. */
-const CACHE='climaiq-v5.2-mobile-20261015';
+const CACHE='climaiq-v5.3-mobile-20261015';
 const FILES=['./index.html','./manifest.webmanifest','./assets/icon-180.png','./assets/icon-192.png','./assets/icon-512.png','./assets/icon.svg'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(key=>key.startsWith('climaiq-')&&key!==CACHE).map(key=>caches.delete(key)));await self.clients.claim();})());});
