@@ -35,3 +35,5 @@ PARA EVITAR PROBLEMAS
 - Algunas opciones de impresión/PDF y almacenamiento dependen de la versión de iOS; compruébalas en tu teléfono.
 - Los valores de refrigerantes son orientativos y no sustituyen el manual del fabricante.
 - ClimaIQ solo permite consulta local; la IA en internet necesita una configuración independiente.
+
+ClimaIQ 4.6: mejora impresión de cotizaciones, título sugerido de PDF y márgenes para reducir cabeceras URL del navegador. En iPhone el nombre final depende del diálogo Guardar en Archivos y puede requerir renombrar manualmente.
