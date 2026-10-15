@@ -477,31 +477,38 @@ if('serviceWorker' in navigator && (location.protocol==='https:' || location.hos
  const raw=String(text||'').toUpperCase().replace(/[|]/g,'I');
  const lines=raw.split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
  const result={};
- const near=(label,re)=>{
-  for(let i=0;i<lines.length;i++)if(label.test(lines[i])){
-   const tail=lines[i].replace(label,' ').trim();
-   for(const candidate of [tail,lines[i+1]||'',lines[i+2]||'']){
-    const m=candidate.match(re);if(m)return m[1]||m[0];
-   }
-  }return '';
- };
- const model=near(/(?:PRODUCT\s*TYPE|INDOOR\s*UNIT\s*TYPE|MODEL(?:\s*(?:NO|NUMBER))?|MODELO)\s*[:#.-]*/i,/([A-Z]{2,6}[- ][A-Z0-9][A-Z0-9/()._-]{4,})/i);
- if(model)result.model=model.replace(/\s+/g,'');
- const serial=near(/(?:SERIAL(?:\s*(?:NO|NUMBER))?|S\s*\/?\s*N|^NO\.?|N[°º.]?\s*DE\s*SERIE)\s*[:#.-]*/i,/([A-Z0-9]{9,})/i);
- if(serial)result.serial=serial;
- const refs=raw.match(/R\s*[-]?\s*(?:410\s*A|407\s*C|404\s*A|134\s*A|600\s*A|290|32|22|12|1234\s*YF)/gi)||[];
- if(refs.length)result.ref=refs[0].toUpperCase().replace(/[\s-]/g,'');
- const direct=raw.match(/(\d{1,3}[., ]?\d{3})\s*(?:BTU\s*\/?\s*H|BTUH|BTU)\b/i);
- if(direct)result.btu=direct[1].replace(/\D/g,'');
- if(!result.btu){
-  const kw=near(/(?:RATED\s*)?(?:COOLING\s*CAPACITY|REFRIGERATING\s*CAPACITY|CAPACIDAD\s*(?:DE\s*)?REFRIGERACI[OÓ]N)\s*[:#.-]*/i,/(\d+(?:[.,]\d+)?)\s*K\s*W\b/i);
-  if(kw)result.btu=String(Math.round(Number(kw.replace(',','.'))*3412.142));
- }
  const brands=['SAMSUNG','LG','MIDEA','GREE','DAIKIN','CARRIER','YORK','TRANE','PANASONIC','TCL','HISENSE','HAIER','ELECTROLUX','WHIRLPOOL','FUJITSU','MITSUBISHI','AUX'];
  result.brand=brands.find(b=>new RegExp('\\b'+b+'\\b').test(raw))||'';
+ const ref=raw.match(/\bR\s*[-.]?\s*(410\s*A|407\s*C|404\s*A|134\s*A|600\s*A|290|32|22|12|1234\s*YF)\b/i);
+ if(ref)result.ref='R'+ref[1].replace(/\s/g,'');
+ const direct=raw.match(/(\d{1,3}[., ]?\d{3})\s*(?:BTU\s*\/?\s*H|BTUH|BTU)\b/i);
+ if(direct)result.btu=direct[1].replace(/\D/g,'');
+ if(!result.btu){for(let i=0;i<lines.length;i++)if(/(?:RATED\s*)?COOLING\s*CAPACITY|CAPACIDAD.*REFRIGERACI/.test(lines[i])){let m=(lines[i]+' '+(lines[i+1]||'')).match(/(\d+(?:[.,]\d+)?)\s*K\s*W\b/i);if(m){result.btu=String(Math.round(Number(m[1].replace(',','.'))*3412.142));break}}}
+ // Accept only an actual equipment model code, not nearby words such as ELECTRIC SHOCK.
+ for(let i=0;i<lines.length;i++)if(/PRODUCT\s*TYPE|INDOOR\s*UNIT\s*TYPE|\bMODEL(?:O)?\b/.test(lines[i])){
+  const segment=lines[i].replace(/^.*?(?:PRODUCT\s*TYPE|INDOOR\s*UNIT\s*TYPE|\bMODEL(?:O)?\b)\s*[:#.-]?/,'');
+  for(const candidate of [segment,lines[i+1]||'']){
+   const tokens=candidate.match(/[A-Z0-9][A-Z0-9/()._-]{6,}/g)||[];
+   const good=tokens.find(t=>/\d/.test(t)&&/[A-Z]/.test(t)&&!/(SHOCK|CLIMATE|PREVENTION|CONDITIONER|HEATING|COOLING)/.test(t));
+   if(good){result.model=good;break}
+  }if(result.model)break;
+ }
+ for(let i=0;i<lines.length;i++)if(/^(?:NO\.?|SERIAL(?:\s*(?:NO|NUMBER))?|S\s*\/?\s*N|N[°º.]?\s*DE\s*SERIE)\s*[:#.-]?/.test(lines[i])){
+  const candidates=[lines[i].replace(/^(?:NO\.?|SERIAL(?:\s*(?:NO|NUMBER))?|S\s*\/?\s*N|N[°º.]?\s*DE\s*SERIE)\s*[:#.-]?/,'').trim(),lines[i+1]||''];
+  for(const candidate of candidates){const tokens=candidate.match(/[A-Z0-9]{10,}/g)||[];const good=tokens.find(t=>/\d/.test(t));if(good){result.serial=good;break}}if(result.serial)break;
+ }
  return result;
  }
- async function processPlateOCR(e){const file=document.getElementById('ocr-plate-photo')?.files?.[0],status=document.getElementById('ocr-plate-status'),btn=e.target;if(!file){status.textContent='Selecciona una fotografía de la placa técnica.';return}btn.disabled=true;try{status.textContent='Cargando lector OCR gratuito…';await loadOCR();status.textContent='Leyendo la fotografía. Puede tardar unos segundos…';const worker=await Tesseract.createWorker('eng');let text='';try{const result=await worker.recognize(file);text=result.data.text||''}finally{await worker.terminate()}const fields=detect(text),map={brand:'equipment-brand',model:'equipment-model',btu:'equipment-btu',ref:'equipment-ref',serial:'equipment-serial'};let count=0;for(const [key,id] of Object.entries(map)){const el=document.getElementById(id);if(el&&fields[key]){el.value=fields[key];el.dispatchEvent(new Event('input',{bubbles:true}));count++}}status.textContent=(count?`Se completaron ${count} campos. `:'No se detectaron campos automáticamente. ')+`Revisa la lectura en inglés y corrige los datos antes de guardar.`;let preview=document.getElementById('ocr-raw-preview');if(!preview){preview=document.createElement('details');preview.id='ocr-raw-preview';preview.style.marginTop='10px';status.insertAdjacentElement('afterend',preview)}const summary=document.createElement('summary');summary.textContent='Ver texto leído de la placa';const pre=document.createElement('pre');pre.style.cssText='white-space:pre-wrap;overflow-wrap:anywhere;font-size:11px;max-height:230px;overflow:auto';pre.textContent=text||'(No se detectó texto)';preview.replaceChildren(summary,pre)}catch(err){status.textContent='No se pudo leer la placa: '+(err?.message||err)}finally{btn.disabled=false}}
+ async function readPlateWithPreprocessing(worker,file){
+ const bitmap=await createImageBitmap(file);const max=1800,scale=Math.min(2.5,max/Math.max(bitmap.width,bitmap.height));
+ const canvas=document.createElement('canvas');canvas.width=Math.max(1,Math.round(bitmap.width*scale));canvas.height=Math.max(1,Math.round(bitmap.height*scale));
+ const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(bitmap,0,0,canvas.width,canvas.height);bitmap.close?.();
+ const data=ctx.getImageData(0,0,canvas.width,canvas.height);const pixels=data.data;
+ for(let i=0;i<pixels.length;i+=4){let v=.299*pixels[i]+.587*pixels[i+1]+.114*pixels[i+2];v=Math.max(0,Math.min(255,(v-128)*1.7+128));pixels[i]=pixels[i+1]=pixels[i+2]=v;}
+ ctx.putImageData(data,0,0);return (await worker.recognize(canvas)).data.text||'';
+ }
+
+ async function processPlateOCR(e){const file=document.getElementById('ocr-plate-photo')?.files?.[0],status=document.getElementById('ocr-plate-status'),btn=e.target;if(!file){status.textContent='Selecciona una fotografía de la placa técnica.';return}btn.disabled=true;try{status.textContent='Cargando lector OCR gratuito…';await loadOCR();status.textContent='Leyendo la fotografía. Puede tardar unos segundos…';const worker=await Tesseract.createWorker('eng');let text='';try{text=await readPlateWithPreprocessing(worker,file)}finally{await worker.terminate()}const fields=detect(text),map={brand:'equipment-brand',model:'equipment-model',btu:'equipment-btu',ref:'equipment-ref',serial:'equipment-serial'};let count=0;for(const [key,id] of Object.entries(map)){const el=document.getElementById(id);if(el&&fields[key]){el.value=fields[key];el.dispatchEvent(new Event('input',{bubbles:true}));count++}}status.textContent=(count?`Se identificaron ${count} campos. `:'No se detectaron campos automáticamente. ')+`Revisa la lectura en inglés y corrige los datos antes de guardar.`;let preview=document.getElementById('ocr-raw-preview');if(!preview){preview=document.createElement('details');preview.id='ocr-raw-preview';preview.style.marginTop='10px';status.insertAdjacentElement('afterend',preview)}const summary=document.createElement('summary');summary.textContent='Ver texto leído de la placa';const pre=document.createElement('pre');pre.style.cssText='white-space:pre-wrap;overflow-wrap:anywhere;font-size:11px;max-height:230px;overflow:auto';pre.textContent=text||'(No se detectó texto)';preview.replaceChildren(summary,pre)}catch(err){status.textContent='No se pudo leer la placa: '+(err?.message||err)}finally{btn.disabled=false}}
  document.addEventListener('click',e=>{if(e.target?.id==='ocr-read-plate')processPlateOCR(e)});
  document.addEventListener('change',e=>{if(e.target?.id==='ocr-plate-photo'){const btn=document.getElementById('ocr-read-plate');if(btn)processPlateOCR({target:btn})}});
 })();
