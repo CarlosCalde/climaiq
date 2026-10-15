@@ -1,4 +1,9 @@
-const CACHE='climaiq-v3.0.0-pages';const ASSETS=['./','./index.html','./styles.css','./engine.js','./app.js','./toolkit.js','./service.js','./service_data.js','./service.css','./guias/guia-1.pdf','./guias/guia-2.pdf','./manifest.webmanifest','./data.json','./manual.pdf','./assets/icon-192.png','./assets/icon-512.png','./assets/icon.svg'];
-self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()))});
-self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
-self.addEventListener('fetch',e=>{const req=e.request;const u=new URL(req.url);if(u.origin!==self.location.origin||req.method!=='GET'||u.pathname.includes('/api/'))return;e.respondWith(caches.match(req).then(hit=>hit||fetch(req).then(r=>{if(r.ok){let copy=r.clone();caches.open(CACHE).then(c=>c.put(req,copy));}return r})));});
+/* ClimaIQ 4.5 - Caché offline de la aplicación. Rutas relativas para GitHub Pages. */
+const CACHE='climaiq-v4.5-mobile-20261015';
+const FILES=['./index.html','./manifest.webmanifest','./assets/icon-180.png','./assets/icon-192.png','./assets/icon-512.png','./assets/icon.svg'];
+self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting()));});
+self.addEventListener('activate',event=>{event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(key=>key.startsWith('climaiq-')&&key!==CACHE).map(key=>caches.delete(key)));await self.clients.claim();})());});
+self.addEventListener('fetch',event=>{const req=event.request;if(req.method!=='GET')return;const url=new URL(req.url);if(url.origin!==location.origin)return;
+ if(req.mode==='navigate'){event.respondWith((async()=>{try{const response=await fetch(req,{cache:'no-store'});if(response.ok){const cache=await caches.open(CACHE);await cache.put('./index.html',response.clone());}return response}catch{const cache=await caches.open(CACHE);return (await cache.match('./index.html'))||Response.error()}})());return}
+ event.respondWith((async()=>{try{const r=await fetch(req);if(r.ok){const c=await caches.open(CACHE);await c.put(req,r.clone())}return r}catch{return (await caches.match(req))||Response.error()}})());
+});

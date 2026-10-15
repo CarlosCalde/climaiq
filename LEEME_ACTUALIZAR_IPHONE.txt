@@ -1,0 +1,37 @@
+CLIMAIQ 4.5 — ACTUALIZACIÓN PARA iPHONE / GITHUB PAGES
+Carlos Calderon · 75310363
+
+IMPORTANTE: el sitio de GitHub Pages es público. No subas respaldos de clientes, fotografías privadas, datos reales ni claves de IA al repositorio.
+La aplicación usa almacenamiento local del dispositivo, no un servicio de sincronización. No incorpora todavía IA en línea.
+
+ANTES DE ACTUALIZAR
+1) Abre la versión que ya tienes en tu iPhone.
+2) Si tienes registros, usa «Exportar respaldo» y guarda el archivo en Archivos del iPhone o iCloud Drive.
+3) No borres el icono de ClimaIQ ni elimines los datos de Safari.
+
+SUBIR LA NUEVA VERSION
+1) Abre en computadora https://github.com/CarlosCalde/climaiq
+2) Entra a Add file > Upload files.
+3) Descomprime este ZIP y sube index.html, manifest.webmanifest, sw.js, .nojekyll y toda la carpeta assets.
+   Deben quedar directamente en la RAÍZ del repositorio (no dentro de otra carpeta).
+   En la web GitHub, para mantener la carpeta assets, arrástrala con sus archivos; confirma que se ve assets/icon-512.png.
+4) Si GitHub advierte que index.html y otros archivos ya existen, confirma el reemplazo (commit).
+5) Espera a que Actions / Pages indique publicación completada.
+6) Abre en Safari del iPhone: https://carloscalde.github.io/climaiq/?v=4.5
+7) Verifica inicio, servicios, cotización y el menú inferior «Más».
+8) Si todavía muestra la versión antigua, cierra ClimaIQ y Safari, abre nuevamente la URL con ?v=4.5 y espera a que el caché se actualice. Evita borrar datos.
+9) Si ya habías añadido ClimaIQ a pantalla de inicio, prueba primero ese mismo icono; normalmente no necesitas reinstalar.
+   Si no aparece actualizada, vuelve a añadir desde Safari (Compartir > Añadir a pantalla de inicio).
+
+DATOS ANTERIORES
+Los datos de ClimaIQ 3.x y los de 4.5 usan formatos distintos. No se borran automáticamente. En ClimaIQ 4.5,
+Más > Recuperar clientes y equipos de ClimaIQ anterior permite importarlos si los datos están disponibles EN LA MISMA INSTALACIÓN.
+Los informes/fotografías antiguas no se migran automáticamente; exporta un respaldo desde la versión anterior ANTES de actualizar.
+Los datos guardados en el HTML local de la computadora no se transfieren solos al iPhone: usa exportar / importar de ClimaIQ 4.x.
+
+PARA EVITAR PROBLEMAS
+- GitHub Pages aloja archivos públicos, pero NO sincroniza clientes, fotografías ni registros.
+- No combines las nuevas imágenes con iconos viejos; reemplaza assets correctamente.
+- Algunas opciones de impresión/PDF y almacenamiento dependen de la versión de iOS; compruébalas en tu teléfono.
+- Los valores de refrigerantes son orientativos y no sustituyen el manual del fabricante.
+- ClimaIQ solo permite consulta local; la IA en internet necesita una configuración independiente.

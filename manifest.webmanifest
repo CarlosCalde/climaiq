@@ -1,1 +1,27 @@
-{"name":"ClimaIQ — Climatización y Refrigeración","short_name":"ClimaIQ","description":"Gestión de mantenimiento preventivo, correctivo e instalación. Informes con fotografías, clientes, biblioteca técnica y asistencia de diagnóstico.","start_url":"./","scope":"./","display":"standalone","background_color":"#f5f8fa","theme_color":"#101c2b","lang":"es","orientation":"portrait-primary","icons":[{"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},{"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
+{
+  "id": "./",
+  "name": "ClimaIQ — Climatización y Refrigeración",
+  "short_name": "ClimaIQ",
+  "description": "Servicios técnicos de climatización: preventivo, correctivo, instalación, desinstalación y cotizaciones.",
+  "start_url": "./?app=4.5",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f8fa",
+  "theme_color": "#102f41",
+  "lang": "es-BO",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
