@@ -1,0 +1,3701 @@
+[
+ {
+  "id": 1,
+  "title": "Equipo totalmente apagado",
+  "category": "ALIMENTACIÓN Y PROTECCIONES",
+  "symptom": "Sin pantalla, ventilador ni respuesta al control.",
+  "causes": [
+   "Interruptor abierto",
+   "Falta de alimentación",
+   "Fusible interno abierto"
+  ],
+  "steps": [
+   "Comprobar alimentación en el origen y tensión nominal según placa.",
+   "Revisar seccionador y protecciones con equipo aislado.",
+   "Inspeccionar conectores de alimentación y fusible según esquema."
+  ],
+  "fix": "Restablecer circuito o sustituir el elemento dañado después de identificar la causa.",
+  "check": "El equipo enciende sin disparos ni calentamiento de conexiones.",
+  "tools": "Multímetro CAT adecuado, esquema eléctrico",
+  "warning": "ALTA ENERGÍA ELÉCTRICA: intervenir conexiones únicamente con aislamiento, bloqueo y verificación de tensión; ensayos bajo tensión sólo por personal autorizado.",
+  "keywords": [
+   "totalmente",
+   "apagado",
+   "pantalla",
+   "ventilador",
+   "respuesta",
+   "control",
+   "interruptor",
+   "abierto",
+   "falta",
+   "alimentación",
+   "fusible",
+   "interno"
+  ],
+  "page": 13
+ },
+ {
+  "id": 2,
+  "title": "Interruptor termomagnético dispara al arrancar",
+  "category": "ALIMENTACIÓN Y PROTECCIONES",
+  "symptom": "El disyuntor abre justo cuando intenta iniciar el compresor.",
+  "causes": [
+   "Cortocircuito",
+   "Motor bloqueado",
+   "Protección mal seleccionada",
+   "Corriente de arranque elevada"
+  ],
+  "steps": [
+   "Registrar cuándo dispara y revisar calibre/curva contra manual.",
+   "Aislar y comprobar resistencia y aislamiento de cargas desenergizadas.",
+   "Comprobar tensión y corriente de arranque con instrumento apropiado."
+  ],
+  "fix": "Corregir la falla de carga o cableado; dimensionar protecciones solo según proyecto y fabricante.",
+  "check": "Arranque estable sin anular ni sobredimensionar protecciones arbitrariamente.",
+  "tools": "Pinza con Inrush, multímetro, megóhmetro",
+  "warning": "ALTA ENERGÍA ELÉCTRICA: intervenir conexiones únicamente con aislamiento, bloqueo y verificación de tensión; ensayos bajo tensión sólo por personal autorizado.",
+  "keywords": [
+   "interruptor",
+   "termomagnético",
+   "dispara",
+   "arrancar",
+   "disyuntor",
+   "abre",
+   "justo",
+   "intenta",
+   "iniciar",
+   "compresor",
+   "cortocircuito",
+   "motor",
+   "bloqueado",
+   "protección",
+   "seleccionada",
+   "corriente",
+   "arranque",
+   "elevada"
+  ],
+  "page": 14
+ },
+ {
+  "id": 3,
+  "title": "Diferencial dispara al conectar",
+  "category": "ALIMENTACIÓN Y PROTECCIONES",
+  "symptom": "La protección diferencial se abre incluso sin demanda de frío.",
+  "causes": [
+   "Fuga a tierra",
+   "Aislamiento húmedo",
+   "Filtro emi averiado"
+  ],
+  "steps": [
+   "Desenergizar y separar circuitos según esquema.",
+   "Inspeccionar humedad y conductores dañados.",
+   "Medir aislamiento de cargas compatibles desconectando electrónica sensible."
+  ],
+  "fix": "Eliminar fuga de aislamiento y restituir dispositivos originales.",
+  "check": "La corriente de fuga y la operación quedan dentro de criterios del fabricante.",
+  "tools": "Pinza de fugas, megóhmetro apropiado",
+  "warning": "ALTA ENERGÍA ELÉCTRICA: intervenir conexiones únicamente con aislamiento, bloqueo y verificación de tensión; ensayos bajo tensión sólo por personal autorizado.",
+  "keywords": [
+   "diferencial",
+   "dispara",
+   "conectar",
+   "protección",
+   "abre",
+   "incluso",
+   "demanda",
+   "frío",
+   "fuga",
+   "tierra",
+   "aislamiento",
+   "húmedo",
+   "filtro",
+   "averiado"
+  ],
+  "page": 15
+ },
+ {
+  "id": 4,
+  "title": "Baja tensión bajo carga",
+  "category": "ALIMENTACIÓN Y PROTECCIONES",
+  "symptom": "El equipo arranca pero cae tensión y pierde rendimiento.",
+  "causes": [
+   "Acometida insuficiente",
+   "Borne flojo",
+   "Cable subdimensionado"
+  ],
+  "steps": [
+   "Registrar tensión sin carga y durante arranque en punto permitido.",
+   "Comparar caída con especificaciones del equipo.",
+   "Inspeccionar aprietes y corrosión sin tensión."
+  ],
+  "fix": "Corregir bornes, longitud/sección o alimentación mediante electricista calificado.",
+  "check": "Tensión durante operación en intervalo de placa y sin puntos calientes.",
+  "tools": "Multímetro True RMS, pinza",
+  "warning": "ALTA ENERGÍA ELÉCTRICA: intervenir conexiones únicamente con aislamiento, bloqueo y verificación de tensión; ensayos bajo tensión sólo por personal autorizado.",
+  "keywords": [
+   "baja",
+   "tensión",
+   "bajo",
+   "carga",
+   "arranca",
+   "pero",
+   "pierde",
+   "rendimiento",
+   "acometida",
+   "insuficiente",
+   "borne",
+   "flojo",
+   "cable",
+   "subdimensionado"
+  ],
+  "page": 16
+ },
+ {
+  "id": 5,
+  "title": "Sobretensión o picos repetidos",
+  "category": "ALIMENTACIÓN Y PROTECCIONES",
+  "symptom": "Tarjetas se dañan o aparecen alarmas de suministro.",
+  "causes": [
+   "Regulación deficiente",
+   "Maniobras",
+   "Neutro defectuoso en instalación aplicable"
+  ],
+  "steps": [
+   "Analizar historial de fallos y tensión con registrador.",
+   "Verificar conexiones y puesta a tierra.",
+   "Contrastar límites con placa y protector instalado."
+  ],
+  "fix": "Reparar red, neutro o protección con diseño profesional.",
+  "check": "Ausencia de eventos fuera de rango en registro de operación.",
+  "tools": "Registrador de tensión, multímetro",
+  "warning": "ALTA ENERGÍA ELÉCTRICA: intervenir conexiones únicamente con aislamiento, bloqueo y verificación de tensión; ensayos bajo tensión sólo por personal autorizado.",
+  "keywords": [
+   "sobretensión",
+   "picos",
+   "repetidos",
+   "tarjetas",
+   "dañan",
+   "aparecen",
+   "alarmas",
+   "suministro",
+   "regulación",
+   "deficiente",
+   "maniobras",
+   "neutro",
+   "defectuoso",
+   "instalación",
+   "aplicable"
+  ],
+  "page": 17
+ },
+ {
+  "id": 6,
+  "title": "Fase ausente en unidad trifásica",
+  "category": "ALIMENTACIÓN Y PROTECCIONES",
+  "symptom": "Contactor intenta cerrar y el motor no arranca o protege.",
+  "causes": [
+   "Fusible abierto",
+   "Cable cortado",
+   "Borne defectuoso"
+  ],
+  "steps": [
+   "Con técnico habilitado comprobar las tres tensiones de línea.",
+   "Localizar caída entre seccionador y carga.",
+   "Revisar estado de fusibles desenergizados."
+  ],
+  "fix": "Restablecer la fase y corregir la causa original del fusible dañado.",
+  "check": "Tensiones equilibradas y protecciones activas.",
+  "tools": "Multímetro CAT III/IV según tablero",
+  "warning": "ALTA ENERGÍA ELÉCTRICA: intervenir conexiones únicamente con aislamiento, bloqueo y verificación de tensión; ensayos bajo tensión sólo por personal autorizado.",
+  "keywords": [
+   "fase",
+   "ausente",
+   "unidad",
+   "trifásica",
+   "contactor",
+   "intenta",
+   "cerrar",
+   "motor",
+   "arranca",
+   "protege",
+   "fusible",
+   "abierto",
+   "cable",
+   "cortado",
+   "borne",
+   "defectuoso"
+  ],
+  "page": 18
+ },
+ {
+  "id": 7,
+  "title": "Desequilibrio de tensión trifásica",
+  "category": "ALIMENTACIÓN Y PROTECCIONES",
+  "symptom": "Compresor trifásico calienta y una línea consume más.",
+  "causes": [
+   "Red desequilibrada",
+   "Conexión resistiva",
+   "Carga de la acometida"
+  ],
+  "steps": [
+   "Medir tensiones entre fases en condiciones de marcha.",
+   "Calcular desequilibrio según método oem.",
+   "Inspeccionar contactor, bornes y circuito de alimentación."
+  ],
+  "fix": "Corregir suministro y conexiones antes de volver a cargar el compresor.",
+  "check": "Desequilibrio conforme al máximo permitido por fabricante.",
+  "tools": "Multímetro True RMS, pinza",
+  "warning": "ALTA ENERGÍA ELÉCTRICA: intervenir conexiones únicamente con aislamiento, bloqueo y verificación de tensión; ensayos bajo tensión sólo por personal autorizado.",
+  "keywords": [
+   "desequilibrio",
+   "tensión",
+   "trifásica",
+   "compresor",
+   "trifásico",
+   "calienta",
+   "línea",
+   "consume",
+   "desequilibrada",
+   "conexión",
+   "resistiva",
+   "carga",
+   "acometida"
+  ],
+  "page": 19
+ },
+ {
+  "id": 8,
+  "title": "Contactor no recibe mando",
+  "category": "ALIMENTACIÓN Y PROTECCIONES",
+  "symptom": "Termostato solicita frío, pero bobina no activa.",
+  "causes": [
+   "Termostato abierto",
+   "Control de seguridad activo",
+   "Cable de mando interrumpido"
+  ],
+  "steps": [
+   "Verificar código de falla y estado de seguridades.",
+   "Seguir continuidad del mando con alimentación aislada.",
+   "Confirmar señal de salida del controlador según esquema."
+  ],
+  "fix": "Reparar circuito de mando o condición de bloqueo; no puentear protecciones.",
+  "check": "El contactor conmuta solo cuando todas las seguridades permiten operar.",
+  "tools": "Multímetro, esquema de control",
+  "warning": "ALTA ENERGÍA ELÉCTRICA: intervenir conexiones únicamente con aislamiento, bloqueo y verificación de tensión; ensayos bajo tensión sólo por personal autorizado.",
+  "keywords": [
+   "contactor",
+   "recibe",
+   "mando",
+   "termostato",
+   "solicita",
+   "frío",
+   "pero",
+   "bobina",
+   "activa",
+   "abierto",
+   "control",
+   "seguridad",
+   "activo",
+   "cable",
+   "interrumpido"
+  ],
+  "page": 20
+ },
+ {
+  "id": 9,
+  "title": "Transformador de control defectuoso",
+  "category": "ALIMENTACIÓN Y PROTECCIONES",
+  "symptom": "Pantalla funciona parcialmente o falta tensión de mando.",
+  "causes": [
+   "Primario interrumpido",
+   "Cortocircuito secundario",
+   "Sobrecarga"
+  ],
+  "steps": [
+   "Comprobar tensión nominal en bornes accesibles con personal calificado.",
+   "Revisar fusibles secundarios.",
+   "Desconectar cargas para localizar sobreconsumo de forma segura."
+  ],
+  "fix": "Corregir sobrecarga y reemplazar transformador por especificación equivalente.",
+  "check": "Voltaje de mando estable a carga nominal.",
+  "tools": "Multímetro, pinza baja corriente",
+  "warning": "ALTA ENERGÍA ELÉCTRICA: intervenir conexiones únicamente con aislamiento, bloqueo y verificación de tensión; ensayos bajo tensión sólo por personal autorizado.",
+  "keywords": [
+   "transformador",
+   "control",
+   "defectuoso",
+   "pantalla",
+   "funciona",
+   "parcialmente",
+   "falta",
+   "tensión",
+   "mando",
+   "primario",
+   "interrumpido",
+   "cortocircuito",
+   "secundario",
+   "sobrecarga"
+  ],
+  "page": 21
+ },
+ {
+  "id": 10,
+  "title": "Paradas por conexión floja",
+  "category": "ALIMENTACIÓN Y PROTECCIONES",
+  "symptom": "Falla intermitente al vibrar ventilador o compresor.",
+  "causes": [
+   "Terminal flojo",
+   "Relé fatigado",
+   "Conductor fracturado"
+  ],
+  "steps": [
+   "Revisar historial y puntos de temperatura anormal.",
+   "Inspeccionar conexiones sin tensión y con bloqueo.",
+   "Comprobar continuidad y apriete al par del fabricante."
+  ],
+  "fix": "Rehacer terminales y asegurar conductores sin tensiones mecánicas.",
+  "check": "No se repite la falla en varios ciclos normales.",
+  "tools": "Cámara térmica opcional, multímetro",
+  "warning": "ALTA ENERGÍA ELÉCTRICA: intervenir conexiones únicamente con aislamiento, bloqueo y verificación de tensión; ensayos bajo tensión sólo por personal autorizado.",
+  "keywords": [
+   "paradas",
+   "conexión",
+   "floja",
+   "intermitente",
+   "vibrar",
+   "ventilador",
+   "compresor",
+   "terminal",
+   "flojo",
+   "relé",
+   "fatigado",
+   "conductor",
+   "fracturado"
+  ],
+  "page": 22
+ },
+ {
+  "id": 11,
+  "title": "Capacitor de marcha degradado",
+  "category": "CAPACITORES, CONTACTORES Y MOTORES",
+  "symptom": "Ventilador o compresor zumba y no alcanza giro.",
+  "causes": [
+   "Capacitancia fuera de tolerancia",
+   "Envejecimiento térmico"
+  ],
+  "steps": [
+   "Identificar valor de µf y tensión del componente.",
+   "Desenergizar, verificar tensión cero y descargar con método aprobado.",
+   "Medir capacitancia aislando el capacitor."
+  ],
+  "fix": "Sustituir por capacitancia y tipo aprobados; tensión nominal igual o superior permitida.",
+  "check": "Arranque y corriente normal sin zumbido sostenido.",
+  "tools": "Multímetro con µF, pinza",
+  "warning": "MOTORES Y CAPACITORES: asegurar paro mecánico; comprobar ausencia de tensión y descargar capacitores antes de desconectar o medir.",
+  "keywords": [
+   "capacitor",
+   "marcha",
+   "degradado",
+   "ventilador",
+   "compresor",
+   "zumba",
+   "alcanza",
+   "giro",
+   "capacitancia",
+   "fuera",
+   "tolerancia",
+   "envejecimiento",
+   "térmico"
+  ],
+  "page": 23
+ },
+ {
+  "id": 12,
+  "title": "Capacitor de arranque defectuoso",
+  "category": "CAPACITORES, CONTACTORES Y MOTORES",
+  "symptom": "Compresor monofásico intenta arrancar y protector actúa.",
+  "causes": [
+   "Capacitor abierto",
+   "Relé de arranque averiado",
+   "Motor bloqueado"
+  ],
+  "steps": [
+   "Identificar circuito de arranque de ese compresor.",
+   "Verificar relé y capacitor aislados.",
+   "Medir corriente de arranque para separar fallo eléctrico de bloqueo."
+  ],
+  "fix": "Reemplazar el elemento comprobado; investigar rotor trabado antes de insistir.",
+  "check": "Arranque sin prolongado consumo de rotor bloqueado.",
+  "tools": "Capacímetro, pinza Inrush",
+  "warning": "MOTORES Y CAPACITORES: asegurar paro mecánico; comprobar ausencia de tensión y descargar capacitores antes de desconectar o medir.",
+  "keywords": [
+   "capacitor",
+   "arranque",
+   "defectuoso",
+   "compresor",
+   "monofásico",
+   "intenta",
+   "arrancar",
+   "protector",
+   "actúa",
+   "abierto",
+   "relé",
+   "averiado",
+   "motor",
+   "bloqueado"
+  ],
+  "page": 24
+ },
+ {
+  "id": 13,
+  "title": "Contactor con contactos quemados",
+  "category": "CAPACITORES, CONTACTORES Y MOTORES",
+  "symptom": "Alimentación aparece en entrada, no llega bien a carga.",
+  "causes": [
+   "Picado por maniobras",
+   "Arco",
+   "Bobina incorrecta"
+  ],
+  "steps": [
+   "Aislar y observar erosión o soldadura.",
+   "Medir caída de tensión bajo carga solo bajo procedimiento seguro.",
+   "Verificar bobina y tensión de control."
+  ],
+  "fix": "Sustituir contactor por capacidad AC-3/uso y bobina compatibles.",
+  "check": "Caída de tensión normal y cierre limpio en cada fase.",
+  "tools": "Multímetro, esquema",
+  "warning": "MOTORES Y CAPACITORES: asegurar paro mecánico; comprobar ausencia de tensión y descargar capacitores antes de desconectar o medir.",
+  "keywords": [
+   "contactor",
+   "contactos",
+   "quemados",
+   "alimentación",
+   "aparece",
+   "entrada",
+   "llega",
+   "bien",
+   "carga",
+   "picado",
+   "maniobras",
+   "arco",
+   "bobina",
+   "incorrecta"
+  ],
+  "page": 25
+ },
+ {
+  "id": 14,
+  "title": "Contactor vibra o repiquetea",
+  "category": "CAPACITORES, CONTACTORES Y MOTORES",
+  "symptom": "Cierra y abre rápidamente con ruido repetitivo.",
+  "causes": [
+   "Baja tensión bobina",
+   "Núcleo sucio",
+   "Señal de control intermitente"
+  ],
+  "steps": [
+   "Comparar tensión de bobina con valor nominal.",
+   "Revisar conexiones del mando sin tensión.",
+   "Identificar si una protección oscila por condición real."
+  ],
+  "fix": "Corregir suministro/control o cambiar contactor; nunca fijarlo manualmente.",
+  "check": "Accionamiento estable sin calentamiento ni repiqueteo.",
+  "tools": "Multímetro True RMS",
+  "warning": "MOTORES Y CAPACITORES: asegurar paro mecánico; comprobar ausencia de tensión y descargar capacitores antes de desconectar o medir.",
+  "keywords": [
+   "contactor",
+   "vibra",
+   "repiquetea",
+   "cierra",
+   "abre",
+   "rápidamente",
+   "ruido",
+   "repetitivo",
+   "baja",
+   "tensión",
+   "bobina",
+   "núcleo",
+   "sucio",
+   "señal",
+   "control",
+   "intermitente"
+  ],
+  "page": 26
+ },
+ {
+  "id": 15,
+  "title": "Ventilador monofásico gira lento",
+  "category": "CAPACITORES, CONTACTORES Y MOTORES",
+  "symptom": "Impulsor funciona pero no entrega caudal suficiente.",
+  "causes": [
+   "Capacitor bajo",
+   "Rodamientos rígidos",
+   "Bobinado envejecido"
+  ],
+  "steps": [
+   "Verificar que hélice gire libre con equipo aislado.",
+   "Medir µf del capacitor si existe.",
+   "Comparar corriente y velocidad con placa."
+  ],
+  "fix": "Cambiar capacitor o motor/rodamientos según diagnóstico y repuestos admitidos.",
+  "check": "RPM/caudal y amperaje regresan a lo especificado.",
+  "tools": "Capacímetro, pinza, tacómetro",
+  "warning": "MOTORES Y CAPACITORES: asegurar paro mecánico; comprobar ausencia de tensión y descargar capacitores antes de desconectar o medir.",
+  "keywords": [
+   "ventilador",
+   "monofásico",
+   "gira",
+   "lento",
+   "impulsor",
+   "funciona",
+   "pero",
+   "entrega",
+   "caudal",
+   "suficiente",
+   "capacitor",
+   "bajo",
+   "rodamientos",
+   "rígidos",
+   "bobinado",
+   "envejecido"
+  ],
+  "page": 27
+ },
+ {
+  "id": 16,
+  "title": "Motor de ventilador sobrecalienta",
+  "category": "CAPACITORES, CONTACTORES Y MOTORES",
+  "symptom": "Motor se detiene por protector térmico.",
+  "causes": [
+   "Impulsor rozando",
+   "Voltaje inadecuado",
+   "Bobinado defectuoso"
+  ],
+  "steps": [
+   "Inspeccionar obstrucciones y ventilación.",
+   "Medir corriente en régimen y tensión.",
+   "Revisar aislamiento con procedimiento compatible."
+  ],
+  "fix": "Eliminar rozamiento o reemplazar motor deteriorado, no sobredimensionar térmico.",
+  "check": "Temperatura y corriente estabilizadas bajo placa.",
+  "tools": "Pinza, multímetro, termómetro",
+  "warning": "MOTORES Y CAPACITORES: asegurar paro mecánico; comprobar ausencia de tensión y descargar capacitores antes de desconectar o medir.",
+  "keywords": [
+   "motor",
+   "ventilador",
+   "sobrecalienta",
+   "detiene",
+   "protector",
+   "térmico",
+   "impulsor",
+   "rozando",
+   "voltaje",
+   "inadecuado",
+   "bobinado",
+   "defectuoso"
+  ],
+  "page": 28
+ },
+ {
+  "id": 17,
+  "title": "Rodamientos de ventilador ruidosos",
+  "category": "CAPACITORES, CONTACTORES Y MOTORES",
+  "symptom": "Chirrido o traqueteo aumenta con velocidad.",
+  "causes": [
+   "Rodamiento desgastado",
+   "Eje desalineado",
+   "Falta de lubricación permitida"
+  ],
+  "steps": [
+   "Aislar y girar impulsor a mano.",
+   "Comprobar juego axial/radial y roces.",
+   "Identificar tipo de rodamiento y mantenimiento oem."
+  ],
+  "fix": "Lubricar solo si está previsto o reemplazar rodamiento/motor.",
+  "check": "Ruido y vibración aceptables sin recalentamiento.",
+  "tools": "Estetoscopio mecánico, tacómetro",
+  "warning": "MOTORES Y CAPACITORES: asegurar paro mecánico; comprobar ausencia de tensión y descargar capacitores antes de desconectar o medir.",
+  "keywords": [
+   "rodamientos",
+   "ventilador",
+   "ruidosos",
+   "chirrido",
+   "traqueteo",
+   "aumenta",
+   "velocidad",
+   "rodamiento",
+   "desgastado",
+   "desalineado",
+   "falta",
+   "lubricación",
+   "permitida"
+  ],
+  "page": 29
+ },
+ {
+  "id": 18,
+  "title": "Bobinado de motor abierto",
+  "category": "CAPACITORES, CONTACTORES Y MOTORES",
+  "symptom": "Motor no gira aunque llega alimentación correcta.",
+  "causes": [
+   "Conductor interno roto",
+   "Térmico abierto",
+   "Conexión suelta"
+  ],
+  "steps": [
+   "Desenergizar y comprobar continuidad entre terminales.",
+   "Distinguir protector térmico temporal de bobina abierta.",
+   "Cotejar esquema y resistencias oem."
+  ],
+  "fix": "Reparar conexiones accesibles o sustituir motor/bobinado autorizado.",
+  "check": "Resistencias compatibles y arranque normal.",
+  "tools": "Multímetro, esquema",
+  "warning": "MOTORES Y CAPACITORES: asegurar paro mecánico; comprobar ausencia de tensión y descargar capacitores antes de desconectar o medir.",
+  "keywords": [
+   "bobinado",
+   "motor",
+   "abierto",
+   "gira",
+   "aunque",
+   "llega",
+   "alimentación",
+   "correcta",
+   "conductor",
+   "interno",
+   "roto",
+   "térmico",
+   "conexión",
+   "suelta"
+  ],
+  "page": 30
+ },
+ {
+  "id": 19,
+  "title": "Motor con fuga a carcasa",
+  "category": "CAPACITORES, CONTACTORES Y MOTORES",
+  "symptom": "Diferencial abre al conectar una carga motorizada.",
+  "causes": [
+   "Aislamiento degradado",
+   "Humedad",
+   "Cable rozado"
+  ],
+  "steps": [
+   "Aislar eléctricamente el motor.",
+   "Medir aislamiento con tensión de prueba apropiada y electrónica separada.",
+   "Revisar cable de acometida."
+  ],
+  "fix": "Reemplazar o reparar motor/cable con aislamiento insuficiente.",
+  "check": "Aislamiento conforme a especificación y protección estable.",
+  "tools": "Megóhmetro, multímetro",
+  "warning": "MOTORES Y CAPACITORES: asegurar paro mecánico; comprobar ausencia de tensión y descargar capacitores antes de desconectar o medir.",
+  "keywords": [
+   "motor",
+   "fuga",
+   "carcasa",
+   "diferencial",
+   "abre",
+   "conectar",
+   "carga",
+   "motorizada",
+   "aislamiento",
+   "degradado",
+   "humedad",
+   "cable",
+   "rozado"
+  ],
+  "page": 31
+ },
+ {
+  "id": 20,
+  "title": "Ventilador EC/BLDC no responde",
+  "category": "CAPACITORES, CONTACTORES Y MOTORES",
+  "symptom": "Unidad con motor electrónico no mueve aire.",
+  "causes": [
+   "Señal de control ausente",
+   "Fuente dc",
+   "Electrónica de motor averiada"
+  ],
+  "steps": [
+   "Identificar pines y señales del fabricante.",
+   "Leer alarmas de tarjeta.",
+   "Comprobar alimentación y cableado con procedimientos oem."
+  ],
+  "fix": "Corregir fuente/señal o cambiar módulo EC compatible tras confirmar fallo.",
+  "check": "Autotest, velocidad de consigna y consumo coherentes.",
+  "tools": "Multímetro, manual del equipo",
+  "warning": "MOTORES Y CAPACITORES: asegurar paro mecánico; comprobar ausencia de tensión y descargar capacitores antes de desconectar o medir.",
+  "keywords": [
+   "ventilador",
+   "bldc",
+   "responde",
+   "unidad",
+   "motor",
+   "electrónico",
+   "mueve",
+   "aire",
+   "señal",
+   "control",
+   "ausente",
+   "fuente",
+   "electrónica",
+   "averiada"
+  ],
+  "page": 32
+ },
+ {
+  "id": 21,
+  "title": "Compresor zumba y no arranca",
+  "category": "COMPRESORES Y ARRANQUE",
+  "symptom": "Se oye intento breve seguido de protección térmica.",
+  "causes": [
+   "Capacitor/relé defectuoso",
+   "Baja tensión",
+   "Rotor bloqueado"
+  ],
+  "steps": [
+   "Comprobar tipo de arranque y componentes de mando.",
+   "Revisar tensión en arranque con equipo seguro.",
+   "Comparar inrush con lra y datos del fabricante."
+  ],
+  "fix": "Reparar circuito; si se confirma rotor bloqueado, reemplazar compresor.",
+  "check": "Arranca con corriente decreciente hasta régimen esperado.",
+  "tools": "Pinza Inrush, multímetro, capacímetro",
+  "warning": "COMPRESOR / PRESIÓN: evitar arranques repetidos con rotor bloqueado; aislar energía y controlar presión y partes calientes.",
+  "keywords": [
+   "compresor",
+   "zumba",
+   "arranca",
+   "intento",
+   "breve",
+   "seguido",
+   "protección",
+   "térmica",
+   "capacitor",
+   "relé",
+   "defectuoso",
+   "baja",
+   "tensión",
+   "rotor",
+   "bloqueado"
+  ],
+  "page": 33
+ },
+ {
+  "id": 22,
+  "title": "Compresor no recibe tensión",
+  "category": "COMPRESORES Y ARRANQUE",
+  "symptom": "Ventilador exterior funciona, compresor permanece parado.",
+  "causes": [
+   "Contactor abierto",
+   "Presostato",
+   "Tarjeta",
+   "Temporización"
+  ],
+  "steps": [
+   "Revisar temporización y alarmas.",
+   "Seguir orden de mando y seguridades.",
+   "Comprobar tensión de salida de contactor por técnico habilitado."
+  ],
+  "fix": "Corregir interrupción del mando, no sustituir compresor sin prueba.",
+  "check": "Llega tensión solo con demanda válida y compresor opera.",
+  "tools": "Multímetro, esquema, registro de alarmas",
+  "warning": "COMPRESOR / PRESIÓN: evitar arranques repetidos con rotor bloqueado; aislar energía y controlar presión y partes calientes.",
+  "keywords": [
+   "compresor",
+   "recibe",
+   "tensión",
+   "ventilador",
+   "exterior",
+   "funciona",
+   "permanece",
+   "parado",
+   "contactor",
+   "abierto",
+   "presostato",
+   "tarjeta",
+   "temporización"
+  ],
+  "page": 34
+ },
+ {
+  "id": 23,
+  "title": "Protector térmico abre repetidamente",
+  "category": "COMPRESORES Y ARRANQUE",
+  "symptom": "Compresor se detiene caliente y vuelve tras enfriarse.",
+  "causes": [
+   "Alta relación de compresión",
+   "Ventilación deficiente",
+   "Sobrecorriente"
+  ],
+  "steps": [
+   "Registrar corrientes y tensiones.",
+   "Medir presiones y temperaturas en régimen permitido.",
+   "Comprobar limpieza condensador y ventilación."
+  ],
+  "fix": "Resolver causa térmica o de refrigeración antes de reiniciar ciclos.",
+  "check": "Temperatura de descarga y corriente dentro de límites OEM.",
+  "tools": "Pinza, sondas de temperatura, manómetros",
+  "warning": "COMPRESOR / PRESIÓN: evitar arranques repetidos con rotor bloqueado; aislar energía y controlar presión y partes calientes.",
+  "keywords": [
+   "protector",
+   "térmico",
+   "abre",
+   "repetidamente",
+   "compresor",
+   "detiene",
+   "caliente",
+   "vuelve",
+   "tras",
+   "enfriarse",
+   "alta",
+   "relación",
+   "compresión",
+   "ventilación",
+   "deficiente",
+   "sobrecorriente"
+  ],
+  "page": 35
+ },
+ {
+  "id": 24,
+  "title": "Compresor dispara protección instantánea",
+  "category": "COMPRESORES Y ARRANQUE",
+  "symptom": "Fusible se funde al energizar compresor.",
+  "causes": [
+   "Corto en bobinado",
+   "Contacto a tierra",
+   "Terminal defectuoso"
+  ],
+  "steps": [
+   "Bloquear energía y separar electrónica sensible.",
+   "Medir continuidad, resistencia entre bornes y a tierra.",
+   "Inspeccionar módulo de arranque y cableado."
+  ],
+  "fix": "Reemplazar componente con defecto confirmado y corregir protección.",
+  "check": "Circuito energiza sin sobrecorriente instantánea.",
+  "tools": "Megóhmetro apropiado, multímetro",
+  "warning": "COMPRESOR / PRESIÓN: evitar arranques repetidos con rotor bloqueado; aislar energía y controlar presión y partes calientes.",
+  "keywords": [
+   "compresor",
+   "dispara",
+   "protección",
+   "instantánea",
+   "fusible",
+   "funde",
+   "energizar",
+   "corto",
+   "bobinado",
+   "contacto",
+   "tierra",
+   "terminal",
+   "defectuoso"
+  ],
+  "page": 36
+ },
+ {
+  "id": 25,
+  "title": "Compresor scroll gira al revés",
+  "category": "COMPRESORES Y ARRANQUE",
+  "symptom": "Ruido anormal y presión diferencial insuficiente en equipo trifásico.",
+  "causes": [
+   "Secuencia de fases incorrecta",
+   "Reparación reciente del alimentador"
+  ],
+  "steps": [
+   "Verificar sentido/secuencia de fases con comprobador.",
+   "Comparar tendencia de presión y ruido con manual.",
+   "Descartar válvula de inversión si existe."
+  ],
+  "fix": "Corregir fases exclusivamente según procedimiento eléctrico OEM.",
+  "check": "Aparece compresión correcta y ruido característico normal.",
+  "tools": "Secuencímetro, manómetros, pinza",
+  "warning": "COMPRESOR / PRESIÓN: evitar arranques repetidos con rotor bloqueado; aislar energía y controlar presión y partes calientes.",
+  "keywords": [
+   "compresor",
+   "scroll",
+   "gira",
+   "revés",
+   "ruido",
+   "anormal",
+   "presión",
+   "diferencial",
+   "insuficiente",
+   "trifásico",
+   "secuencia",
+   "fases",
+   "incorrecta",
+   "reparación",
+   "reciente",
+   "alimentador"
+  ],
+  "page": 37
+ },
+ {
+  "id": 26,
+  "title": "Compresor con bajo rendimiento mecánico",
+  "category": "COMPRESORES Y ARRANQUE",
+  "symptom": "Funciona continuamente sin alcanzar capacidad de enfriamiento.",
+  "causes": [
+   "Desgaste interno",
+   "Válvulas dañadas",
+   "Derivación de gas caliente"
+  ],
+  "steps": [
+   "Antes, descartar carga térmica, flujo de aire y expansión.",
+   "Registrar succión/descarga/temperaturas y amperios.",
+   "Contrastar con curvas del fabricante."
+  ],
+  "fix": "Reparar derivación o sustituir compresor solo al confirmar baja capacidad.",
+  "check": "Capacidad y consumo concuerdan con condiciones de aplicación.",
+  "tools": "Manómetros, termopares, pinza",
+  "warning": "COMPRESOR / PRESIÓN: evitar arranques repetidos con rotor bloqueado; aislar energía y controlar presión y partes calientes.",
+  "keywords": [
+   "compresor",
+   "bajo",
+   "rendimiento",
+   "mecánico",
+   "funciona",
+   "continuamente",
+   "alcanzar",
+   "capacidad",
+   "enfriamiento",
+   "desgaste",
+   "interno",
+   "válvulas",
+   "dañadas",
+   "derivación",
+   "caliente"
+  ],
+  "page": 38
+ },
+ {
+  "id": 27,
+  "title": "Compresor vibra excesivamente",
+  "category": "COMPRESORES Y ARRANQUE",
+  "symptom": "Transmite golpes o resonancia a la tubería.",
+  "causes": [
+   "Soportes vencidos",
+   "Golpe de líquido",
+   "Tubería forzada"
+  ],
+  "steps": [
+   "Identificar cuándo aparece vibración.",
+   "Revisar soportes y fijaciones aislados.",
+   "Comprobar sobrecalentamiento y retorno de líquido antes de operar."
+  ],
+  "fix": "Corregir soporte y causa frigorífica; reubicar tubería si diseño lo permite.",
+  "check": "Vibración y golpes desaparecen sin forzar conexiones.",
+  "tools": "Medidor vibración, manómetros, termómetro",
+  "warning": "COMPRESOR / PRESIÓN: evitar arranques repetidos con rotor bloqueado; aislar energía y controlar presión y partes calientes.",
+  "keywords": [
+   "compresor",
+   "vibra",
+   "excesivamente",
+   "transmite",
+   "golpes",
+   "resonancia",
+   "tubería",
+   "soportes",
+   "vencidos",
+   "golpe",
+   "líquido",
+   "forzada"
+  ],
+  "page": 39
+ },
+ {
+  "id": 28,
+  "title": "Golpe de líquido al compresor",
+  "category": "COMPRESORES Y ARRANQUE",
+  "symptom": "Golpeteo metálico al arranque o durante cambios de carga.",
+  "causes": [
+   "Retorno de líquido",
+   "Expansión mal regulada",
+   "Descongelamiento deficiente"
+  ],
+  "steps": [
+   "Detener para evitar daño.",
+   "Evaluar sobrecalentamiento de succión y estado del bulbo/eev.",
+   "Revisar caudal de aire y secuencia de deshielo."
+  ],
+  "fix": "Corregir alimentación de refrigerante y drenaje; evaluar daño interno.",
+  "check": "Sobrecalentamiento y retorno de aceite aceptables por OEM.",
+  "tools": "Manómetros, termopares",
+  "warning": "COMPRESOR / PRESIÓN: evitar arranques repetidos con rotor bloqueado; aislar energía y controlar presión y partes calientes.",
+  "keywords": [
+   "golpe",
+   "líquido",
+   "compresor",
+   "golpeteo",
+   "metálico",
+   "arranque",
+   "durante",
+   "cambios",
+   "carga",
+   "retorno",
+   "expansión",
+   "regulada",
+   "descongelamiento",
+   "deficiente"
+  ],
+  "page": 40
+ },
+ {
+  "id": 29,
+  "title": "Falla de lubricación de compresor",
+  "category": "COMPRESORES Y ARRANQUE",
+  "symptom": "Alarma de presión diferencial de aceite o desgaste anormal.",
+  "causes": [
+   "Nivel bajo",
+   "Filtro obstruido",
+   "Bomba de aceite defectuosa"
+  ],
+  "steps": [
+   "Verificar tipo de lubricación y control oem.",
+   "Medir presión diferencial de aceite cuando aplique.",
+   "Inspeccionar nivel, retorno y evidencias de fugas."
+  ],
+  "fix": "Restablecer circuito de aceite y reemplazar componentes degradados.",
+  "check": "Presión diferencial y nivel de aceite estables dentro de manual.",
+  "tools": "Manómetros de aceite, visor, termómetro",
+  "warning": "COMPRESOR / PRESIÓN: evitar arranques repetidos con rotor bloqueado; aislar energía y controlar presión y partes calientes.",
+  "keywords": [
+   "lubricación",
+   "compresor",
+   "alarma",
+   "presión",
+   "diferencial",
+   "aceite",
+   "desgaste",
+   "anormal",
+   "nivel",
+   "bajo",
+   "filtro",
+   "obstruido",
+   "bomba",
+   "defectuosa"
+  ],
+  "page": 41
+ },
+ {
+  "id": 30,
+  "title": "Compresor cicla por anti-rearranque",
+  "category": "COMPRESORES Y ARRANQUE",
+  "symptom": "Tras cortar corriente no reinicia inmediatamente.",
+  "causes": [
+   "Retardo protector normal",
+   "Tiempo de ecualización",
+   "Bloqueo de seguridad"
+  ],
+  "steps": [
+   "Consultar temporización del controlador.",
+   "Comparar tiempo real con programación.",
+   "Buscar alarma si excede el retardo normal."
+  ],
+  "fix": "Mantener temporización protectora; reparar solo si hay evento anómalo.",
+  "check": "Reinicia al cumplirse condiciones de seguridad del fabricante.",
+  "tools": "Cronómetro, manual OEM",
+  "warning": "COMPRESOR / PRESIÓN: evitar arranques repetidos con rotor bloqueado; aislar energía y controlar presión y partes calientes.",
+  "keywords": [
+   "compresor",
+   "cicla",
+   "anti",
+   "rearranque",
+   "tras",
+   "cortar",
+   "corriente",
+   "reinicia",
+   "inmediatamente",
+   "retardo",
+   "protector",
+   "normal",
+   "tiempo",
+   "ecualización",
+   "bloqueo",
+   "seguridad"
+  ],
+  "page": 42
+ },
+ {
+  "id": 31,
+  "title": "Filtro de aire saturado",
+  "category": "EVAPORADOR Y DISTRIBUCIÓN DE AIRE",
+  "symptom": "Poco aire en rejillas y serpentín muy frío.",
+  "causes": [
+   "Polvo",
+   "Frecuencia de mantenimiento insuficiente"
+  ],
+  "steps": [
+   "Examinar diferencial de presión si hay puntos de medición.",
+   "Revisar estado del filtro y sentido de montaje.",
+   "Comprobar caudal después de limpieza."
+  ],
+  "fix": "Limpiar o sustituir filtro conforme a especificación.",
+  "check": "Caudal y temperatura de impulsión regresan a rango de diseño.",
+  "tools": "Manómetro diferencial, termómetro",
+  "warning": "VENTILADORES: desenergizar antes de limpiar o tocar turbinas, filtros y serpentines; evitar productos corrosivos.",
+  "keywords": [
+   "filtro",
+   "aire",
+   "saturado",
+   "poco",
+   "rejillas",
+   "serpentín",
+   "frío",
+   "polvo",
+   "frecuencia",
+   "mantenimiento",
+   "insuficiente"
+  ],
+  "page": 43
+ },
+ {
+  "id": 32,
+  "title": "Evaporador congelado",
+  "category": "EVAPORADOR Y DISTRIBUCIÓN DE AIRE",
+  "symptom": "Escarcha/ hielo limita paso de aire.",
+  "causes": [
+   "Bajo caudal",
+   "Refrigerante insuficiente",
+   "Control defectuoso"
+  ],
+  "steps": [
+   "Descongelar sin herramientas punzantes.",
+   "Medir filtros, ventilador y flujo.",
+   "Luego evaluar presión/sobrecalentamiento para descartar problema frigorífico."
+  ],
+  "fix": "Restablecer aire y reparar causa específica antes de operar.",
+  "check": "No reaparece hielo durante ciclos completos.",
+  "tools": "Termómetro, manómetro, anemómetro",
+  "warning": "VENTILADORES: desenergizar antes de limpiar o tocar turbinas, filtros y serpentines; evitar productos corrosivos.",
+  "keywords": [
+   "evaporador",
+   "congelado",
+   "escarcha",
+   "hielo",
+   "limita",
+   "paso",
+   "aire",
+   "bajo",
+   "caudal",
+   "refrigerante",
+   "insuficiente",
+   "control",
+   "defectuoso"
+  ],
+  "page": 44
+ },
+ {
+  "id": 33,
+  "title": "Turbina interior sucia",
+  "category": "EVAPORADOR Y DISTRIBUCIÓN DE AIRE",
+  "symptom": "Gira pero impulsa poco aire; ruido de desequilibrio.",
+  "causes": [
+   "Depósitos de polvo y grasa",
+   "Álabes obstruidos"
+  ],
+  "steps": [
+   "Desenergizar.",
+   "Revisar turbina y serpentín sin deformar aletas.",
+   "Comparar flujo antes/después de limpieza."
+  ],
+  "fix": "Limpieza técnica con protección electrónica y drenaje; corregir filtración.",
+  "check": "Flujo uniforme, sin vibración ni goteo.",
+  "tools": "Cepillo, anemómetro",
+  "warning": "VENTILADORES: desenergizar antes de limpiar o tocar turbinas, filtros y serpentines; evitar productos corrosivos.",
+  "keywords": [
+   "turbina",
+   "interior",
+   "sucia",
+   "gira",
+   "pero",
+   "impulsa",
+   "poco",
+   "aire",
+   "ruido",
+   "desequilibrio",
+   "depósitos",
+   "polvo",
+   "grasa",
+   "álabes",
+   "obstruidos"
+  ],
+  "page": 45
+ },
+ {
+  "id": 34,
+  "title": "Ventilador interior no gira",
+  "category": "EVAPORADOR Y DISTRIBUCIÓN DE AIRE",
+  "symptom": "Compresor puede funcionar mientras evaporador se hiela.",
+  "causes": [
+   "Motor averiado",
+   "Capacitor",
+   "Placa o sensor"
+  ],
+  "steps": [
+   "Parar equipo para evitar congelamiento.",
+   "Confirmar señal de mando.",
+   "Comprobar capacitor o alimentación compatible con motor."
+  ],
+  "fix": "Reparar accionamiento y comprobar todos los modos de velocidad.",
+  "check": "Ventilador mantiene velocidad y no aparece hielo.",
+  "tools": "Multímetro, capacímetro",
+  "warning": "VENTILADORES: desenergizar antes de limpiar o tocar turbinas, filtros y serpentines; evitar productos corrosivos.",
+  "keywords": [
+   "ventilador",
+   "interior",
+   "gira",
+   "compresor",
+   "funcionar",
+   "mientras",
+   "evaporador",
+   "hiela",
+   "motor",
+   "averiado",
+   "capacitor",
+   "placa",
+   "sensor"
+  ],
+  "page": 46
+ },
+ {
+  "id": 35,
+  "title": "Velocidad insuficiente del evaporador",
+  "category": "EVAPORADOR Y DISTRIBUCIÓN DE AIRE",
+  "symptom": "Diferencial térmico alto pero confort deficiente.",
+  "causes": [
+   "Configuración baja",
+   "Motor lento",
+   "Turbina sucia"
+  ],
+  "steps": [
+   "Verificar consigna y modo.",
+   "Medir velocidad/caudal si disponible.",
+   "Inspeccionar filtro, impulsor y motor."
+  ],
+  "fix": "Corregir configuración, limpieza o motor.",
+  "check": "Caudal equilibrado en todas las velocidades.",
+  "tools": "Anemómetro, termómetro",
+  "warning": "VENTILADORES: desenergizar antes de limpiar o tocar turbinas, filtros y serpentines; evitar productos corrosivos.",
+  "keywords": [
+   "velocidad",
+   "insuficiente",
+   "evaporador",
+   "diferencial",
+   "térmico",
+   "alto",
+   "pero",
+   "confort",
+   "deficiente",
+   "configuración",
+   "baja",
+   "motor",
+   "lento",
+   "turbina",
+   "sucia"
+  ],
+  "page": 47
+ },
+ {
+  "id": 36,
+  "title": "Sensor de serpentín mal sujeto",
+  "category": "EVAPORADOR Y DISTRIBUCIÓN DE AIRE",
+  "symptom": "Equipo corta frío demasiado pronto o congela.",
+  "causes": [
+   "Sonda desprendida",
+   "Ubicación incorrecta",
+   "Clip faltante"
+  ],
+  "steps": [
+   "Consultar posición oem.",
+   "Inspeccionar fijación con equipo aislado.",
+   "Comparar lectura con termómetro en misma zona."
+  ],
+  "fix": "Fijar o reemplazar sensor y su clip según diseño.",
+  "check": "Temperatura reportada coincide con superficie y ciclo es estable.",
+  "tools": "Termómetro contacto, multímetro",
+  "warning": "VENTILADORES: desenergizar antes de limpiar o tocar turbinas, filtros y serpentines; evitar productos corrosivos.",
+  "keywords": [
+   "sensor",
+   "serpentín",
+   "sujeto",
+   "corta",
+   "frío",
+   "demasiado",
+   "pronto",
+   "congela",
+   "sonda",
+   "desprendida",
+   "ubicación",
+   "incorrecta",
+   "clip",
+   "faltante"
+  ],
+  "page": 48
+ },
+ {
+  "id": 37,
+  "title": "Rejillas cerradas o conductos estrangulados",
+  "category": "EVAPORADOR Y DISTRIBUCIÓN DE AIRE",
+  "symptom": "Hay ruido de aire y poca climatización en habitaciones.",
+  "causes": [
+   "Compuertas cerradas",
+   "Conducto aplastado",
+   "Diseño de retorno pobre"
+  ],
+  "steps": [
+   "Inspeccionar recorrido y compuertas.",
+   "Medir presión estática total.",
+   "Verificar caudal por zona y retorno."
+  ],
+  "fix": "Abrir/balancear o reparar ductos con criterio de diseño.",
+  "check": "Presión estática y caudal por recinto dentro del proyecto.",
+  "tools": "Manómetro diferencial, anemómetro",
+  "warning": "VENTILADORES: desenergizar antes de limpiar o tocar turbinas, filtros y serpentines; evitar productos corrosivos.",
+  "keywords": [
+   "rejillas",
+   "cerradas",
+   "conductos",
+   "estrangulados",
+   "ruido",
+   "aire",
+   "poca",
+   "climatización",
+   "habitaciones",
+   "compuertas",
+   "conducto",
+   "aplastado",
+   "diseño",
+   "retorno",
+   "pobre"
+  ],
+  "page": 49
+ },
+ {
+  "id": 38,
+  "title": "Recirculación de aire de impulsión",
+  "category": "EVAPORADOR Y DISTRIBUCIÓN DE AIRE",
+  "symptom": "Enfría cerca de la unidad pero no el recinto.",
+  "causes": [
+   "Retorno mal ubicado",
+   "Cortocircuito de aire",
+   "Obstáculos"
+  ],
+  "steps": [
+   "Evaluar patrón de chorro y ubicación de retorno.",
+   "Comparar temperaturas ambiente/retorno.",
+   "Revisar mobiliario y deflectores."
+  ],
+  "fix": "Eliminar obstrucciones y redirigir difusores sin alterar seguridad.",
+  "check": "Distribución homogénea y control más estable.",
+  "tools": "Termómetro, anemómetro",
+  "warning": "VENTILADORES: desenergizar antes de limpiar o tocar turbinas, filtros y serpentines; evitar productos corrosivos.",
+  "keywords": [
+   "recirculación",
+   "aire",
+   "impulsión",
+   "enfría",
+   "cerca",
+   "unidad",
+   "pero",
+   "recinto",
+   "retorno",
+   "ubicado",
+   "cortocircuito",
+   "obstáculos"
+  ],
+  "page": 50
+ },
+ {
+  "id": 39,
+  "title": "Evaporador con aletas tapadas",
+  "category": "EVAPORADOR Y DISTRIBUCIÓN DE AIRE",
+  "symptom": "Temperatura de salida es inestable y sube presión estática.",
+  "causes": [
+   "Polvo incrustado",
+   "Filtros inefectivos"
+  ],
+  "steps": [
+   "Inspeccionar frente y cara de salida del serpentín.",
+   "Medir pérdida de presión si posible.",
+   "Revisar bandeja y drenaje."
+  ],
+  "fix": "Limpiar con producto compatible y proteger circuitos; reparar filtros.",
+  "check": "Flujo recuperado, drenaje libre y sin residuos químicos.",
+  "tools": "Manómetro diferencial, cámara inspección",
+  "warning": "VENTILADORES: desenergizar antes de limpiar o tocar turbinas, filtros y serpentines; evitar productos corrosivos.",
+  "keywords": [
+   "evaporador",
+   "aletas",
+   "tapadas",
+   "temperatura",
+   "salida",
+   "inestable",
+   "sube",
+   "presión",
+   "estática",
+   "polvo",
+   "incrustado",
+   "filtros",
+   "inefectivos"
+  ],
+  "page": 51
+ },
+ {
+  "id": 40,
+  "title": "Desbalance de distribución de aire",
+  "category": "EVAPORADOR Y DISTRIBUCIÓN DE AIRE",
+  "symptom": "Una zona queda caliente y otra muy fría.",
+  "causes": [
+   "Ductos mal balanceados",
+   "Fugas",
+   "Difusores inadecuados"
+  ],
+  "steps": [
+   "Medir caudal por difusor.",
+   "Comparar con caudales de diseño.",
+   "Revisar fugas, compuertas y presión estática."
+  ],
+  "fix": "Ajustar balance y sellar ductos; adaptar difusores si proyecto lo requiere.",
+  "check": "Caudales y temperaturas por zona dentro de tolerancias.",
+  "tools": "Balómetro/anemómetro, manómetro",
+  "warning": "VENTILADORES: desenergizar antes de limpiar o tocar turbinas, filtros y serpentines; evitar productos corrosivos.",
+  "keywords": [
+   "desbalance",
+   "distribución",
+   "aire",
+   "zona",
+   "queda",
+   "caliente",
+   "otra",
+   "fría",
+   "ductos",
+   "balanceados",
+   "fugas",
+   "difusores",
+   "inadecuados"
+  ],
+  "page": 52
+ },
+ {
+  "id": 41,
+  "title": "Condensador exterior sucio",
+  "category": "CONDENSADOR Y RECHAZO DE CALOR",
+  "symptom": "Aumenta presión de descarga y cae capacidad.",
+  "causes": [
+   "Polvo",
+   "Pelusa",
+   "Grasa",
+   "Aletas obstruidas"
+  ],
+  "steps": [
+   "Inspeccionar ambas caras del serpentín.",
+   "Comprobar ventilador y temperatura ambiente.",
+   "Comparar presión/temperatura condensación después de limpiar."
+  ],
+  "fix": "Limpiar sin deformar aletas y mejorar mantenimiento del entorno.",
+  "check": "Presión y amperios bajan a rango esperado para el ambiente.",
+  "tools": "Manómetros, termómetro, pinza",
+  "warning": "ALTA PRESIÓN Y PARTES CALIENTES: no puentear presostatos; comprobar ventilación antes de rearmar.",
+  "keywords": [
+   "condensador",
+   "exterior",
+   "sucio",
+   "aumenta",
+   "presión",
+   "descarga",
+   "capacidad",
+   "polvo",
+   "pelusa",
+   "grasa",
+   "aletas",
+   "obstruidas"
+  ],
+  "page": 53
+ },
+ {
+  "id": 42,
+  "title": "Ventilador del condensador detenido",
+  "category": "CONDENSADOR Y RECHAZO DE CALOR",
+  "symptom": "Compresor sube de presión y se protege.",
+  "causes": [
+   "Motor",
+   "Capacitor",
+   "Contactor",
+   "Mando fallido"
+  ],
+  "steps": [
+   "Verificar que no haya obstrucciones.",
+   "Comprobar control y tensión conforme al motor.",
+   "Probar capacitor si corresponde."
+  ],
+  "fix": "Reparar ventilación antes de habilitar compresor.",
+  "check": "Ventilador opera cuando se requiere rechazo de calor.",
+  "tools": "Multímetro, pinza, capacímetro",
+  "warning": "ALTA PRESIÓN Y PARTES CALIENTES: no puentear presostatos; comprobar ventilación antes de rearmar.",
+  "keywords": [
+   "ventilador",
+   "condensador",
+   "detenido",
+   "compresor",
+   "sube",
+   "presión",
+   "protege",
+   "motor",
+   "capacitor",
+   "contactor",
+   "mando",
+   "fallido"
+  ],
+  "page": 54
+ },
+ {
+  "id": 43,
+  "title": "Ventilador exterior gira al revés",
+  "category": "CONDENSADOR Y RECHAZO DE CALOR",
+  "symptom": "Caudal se invierte y condensación empeora.",
+  "causes": [
+   "Cableado trifásico cambiado",
+   "Hélice invertida"
+  ],
+  "steps": [
+   "Comprobar flecha de giro y dirección de flujo.",
+   "Identificar tipo de motor.",
+   "Verificar secuencia eléctrica según fabricante."
+  ],
+  "fix": "Restituir sentido de giro previsto, con equipo aislado.",
+  "check": "Dirección y caudal coinciden con fabricante.",
+  "tools": "Secuencímetro, anemómetro",
+  "warning": "ALTA PRESIÓN Y PARTES CALIENTES: no puentear presostatos; comprobar ventilación antes de rearmar.",
+  "keywords": [
+   "ventilador",
+   "exterior",
+   "gira",
+   "revés",
+   "caudal",
+   "invierte",
+   "condensación",
+   "empeora",
+   "cableado",
+   "trifásico",
+   "cambiado",
+   "hélice",
+   "invertida"
+  ],
+  "page": 55
+ },
+ {
+  "id": 44,
+  "title": "Recirculación de aire caliente exterior",
+  "category": "CONDENSADOR Y RECHAZO DE CALOR",
+  "symptom": "Unidad exterior reaspira su propia descarga.",
+  "causes": [
+   "Instalación confinada",
+   "Distancias insuficientes",
+   "Barreras"
+  ],
+  "steps": [
+   "Medir aire de entrada y descarga.",
+   "Inspeccionar distancias y trayectorias.",
+   "Comparar contra requisitos de instalación."
+  ],
+  "fix": "Mejorar ventilación o reubicar unidad respetando distancias OEM.",
+  "check": "Temperatura de entrada se acerca a ambiente real.",
+  "tools": "Termómetro, anemómetro",
+  "warning": "ALTA PRESIÓN Y PARTES CALIENTES: no puentear presostatos; comprobar ventilación antes de rearmar.",
+  "keywords": [
+   "recirculación",
+   "aire",
+   "caliente",
+   "exterior",
+   "unidad",
+   "reaspira",
+   "propia",
+   "descarga",
+   "instalación",
+   "confinada",
+   "distancias",
+   "insuficientes",
+   "barreras"
+  ],
+  "page": 56
+ },
+ {
+  "id": 45,
+  "title": "Presostato de alta dispara",
+  "category": "CONDENSADOR Y RECHAZO DE CALOR",
+  "symptom": "Equipo corta por alta presión de condensación.",
+  "causes": [
+   "Serpentín sucio",
+   "Exceso carga",
+   "No condensables",
+   "Ventilador"
+  ],
+  "steps": [
+   "Registrar presión y temperatura de condensación.",
+   "Comprobar caudal de aire y limpieza.",
+   "Investigar carga y procedimiento previo de refrigeración."
+  ],
+  "fix": "Eliminar causa sin modificar ni puentear setpoint del presostato.",
+  "check": "Opera por debajo del límite y mantiene protecciones activas.",
+  "tools": "Manómetros, termómetro",
+  "warning": "ALTA PRESIÓN Y PARTES CALIENTES: no puentear presostatos; comprobar ventilación antes de rearmar.",
+  "keywords": [
+   "presostato",
+   "alta",
+   "dispara",
+   "corta",
+   "presión",
+   "condensación",
+   "serpentín",
+   "sucio",
+   "exceso",
+   "carga",
+   "condensables",
+   "ventilador"
+  ],
+  "page": 57
+ },
+ {
+  "id": 46,
+  "title": "Exceso de refrigerante",
+  "category": "CONDENSADOR Y RECHAZO DE CALOR",
+  "symptom": "Presión de condensación y subenfriamiento anómalos.",
+  "causes": [
+   "Carga incorrecta por volumen",
+   "Adición sin pesado"
+  ],
+  "steps": [
+   "Verificar primero caudal de aire y sensores.",
+   "Medir subenfriamiento según tipo de equipo y condición.",
+   "Contrastar carga con procedimiento oem."
+  ],
+  "fix": "Recuperar y ajustar masa con balanza según especificación, sin ventear.",
+  "check": "Presiones y subenfriamiento coherentes con condiciones de diseño.",
+  "tools": "Balanza, manómetros, sondas",
+  "warning": "ALTA PRESIÓN Y PARTES CALIENTES: no puentear presostatos; comprobar ventilación antes de rearmar.",
+  "keywords": [
+   "exceso",
+   "refrigerante",
+   "presión",
+   "condensación",
+   "subenfriamiento",
+   "anómalos",
+   "carga",
+   "incorrecta",
+   "volumen",
+   "adición",
+   "pesado"
+  ],
+  "page": 58
+ },
+ {
+  "id": 47,
+  "title": "Aire/no condensables en circuito",
+  "category": "CONDENSADOR Y RECHAZO DE CALOR",
+  "symptom": "Alta condensación persistente tras limpieza y carga correcta.",
+  "causes": [
+   "Evacuación incompleta",
+   "Ingreso de aire durante reparación"
+  ],
+  "steps": [
+   "Revisar historial de apertura.",
+   "Descartar carga y ventilación.",
+   "Comparar temperaturas de saturación y comportamiento en régimen."
+  ],
+  "fix": "Recuperar refrigerante, reparar estanqueidad, hacer vacío profundo y recargar por masa con técnico autorizado.",
+  "check": "Presiones normales y prueba de vacío/estanqueidad satisfactoria.",
+  "tools": "Manómetros, vacuómetro, balanza",
+  "warning": "ALTA PRESIÓN Y PARTES CALIENTES: no puentear presostatos; comprobar ventilación antes de rearmar.",
+  "keywords": [
+   "aire",
+   "condensables",
+   "circuito",
+   "alta",
+   "condensación",
+   "persistente",
+   "tras",
+   "limpieza",
+   "carga",
+   "correcta",
+   "evacuación",
+   "incompleta",
+   "ingreso",
+   "durante",
+   "reparación"
+  ],
+  "page": 59
+ },
+ {
+  "id": 48,
+  "title": "Aletas del condensador deformadas",
+  "category": "CONDENSADOR Y RECHAZO DE CALOR",
+  "symptom": "Serpentín parcialmente bloqueado pese a estar limpio.",
+  "causes": [
+   "Golpes",
+   "Lavado a alta presión",
+   "Vibración"
+  ],
+  "steps": [
+   "Inspeccionar zonas aplastadas.",
+   "Cuantificar superficie afectada y paso de aire.",
+   "Comparar presión antes y después de recuperación."
+  ],
+  "fix": "Peinar aletas compatibles o sustituir serpentín si daño grave.",
+  "check": "Flujo de aire recuperado sin fuga del intercambiador.",
+  "tools": "Peine de aletas, manómetros",
+  "warning": "ALTA PRESIÓN Y PARTES CALIENTES: no puentear presostatos; comprobar ventilación antes de rearmar.",
+  "keywords": [
+   "aletas",
+   "condensador",
+   "deformadas",
+   "serpentín",
+   "parcialmente",
+   "bloqueado",
+   "pese",
+   "estar",
+   "limpio",
+   "golpes",
+   "lavado",
+   "alta",
+   "presión",
+   "vibración"
+  ],
+  "page": 60
+ },
+ {
+  "id": 49,
+  "title": "Control de velocidad exterior defectuoso",
+  "category": "CONDENSADOR Y RECHAZO DE CALOR",
+  "symptom": "Ventilador modula erráticamente y presión fluctúa.",
+  "causes": [
+   "Sensor de presión",
+   "Variador",
+   "Placa",
+   "Mala configuración"
+  ],
+  "steps": [
+   "Leer consignas y fallas de controlador.",
+   "Comparar sensor con medición independiente.",
+   "Verificar potencia y señal de mando siguiendo manual."
+  ],
+  "fix": "Reparar sensor/control y parametrización, sin eliminar seguridad.",
+  "check": "Ventilador responde a carga con condensación estable.",
+  "tools": "Manómetros, multímetro, manual",
+  "warning": "ALTA PRESIÓN Y PARTES CALIENTES: no puentear presostatos; comprobar ventilación antes de rearmar.",
+  "keywords": [
+   "control",
+   "velocidad",
+   "exterior",
+   "defectuoso",
+   "ventilador",
+   "modula",
+   "erráticamente",
+   "presión",
+   "fluctúa",
+   "sensor",
+   "variador",
+   "placa",
+   "mala",
+   "configuración"
+  ],
+  "page": 61
+ },
+ {
+  "id": 50,
+  "title": "Unidad exterior expuesta a calor extremo",
+  "category": "CONDENSADOR Y RECHAZO DE CALOR",
+  "symptom": "Alarmas de alta presión en horas de máxima temperatura.",
+  "causes": [
+   "Ambiente fuera de límites",
+   "Recirculación",
+   "Capacidad de rechazo marginal"
+  ],
+  "steps": [
+   "Registrar ambiente real en entrada.",
+   "Verificar rango admisible de operación.",
+   "Revisar orientación, distancia y caudal de ventilación."
+  ],
+  "fix": "Corregir ubicación/ventilación o seleccionar equipo adecuado al clima.",
+  "check": "Cumple capacidad dentro del dominio declarado por fabricante.",
+  "tools": "Termómetro, anemómetro",
+  "warning": "ALTA PRESIÓN Y PARTES CALIENTES: no puentear presostatos; comprobar ventilación antes de rearmar.",
+  "keywords": [
+   "unidad",
+   "exterior",
+   "expuesta",
+   "calor",
+   "extremo",
+   "alarmas",
+   "alta",
+   "presión",
+   "horas",
+   "máxima",
+   "temperatura",
+   "ambiente",
+   "fuera",
+   "límites",
+   "recirculación",
+   "capacidad",
+   "rechazo",
+   "marginal"
+  ],
+  "page": 62
+ },
+ {
+  "id": 51,
+  "title": "Fuga lenta de refrigerante",
+  "category": "REFRIGERANTE Y EXPANSIÓN",
+  "symptom": "El rendimiento cae progresivamente y aumenta sobrecalentamiento.",
+  "causes": [
+   "Microfuga en unión",
+   "Vibración",
+   "Corrosión"
+  ],
+  "steps": [
+   "Buscar evidencia de aceite y usar detector adecuado.",
+   "Registrar presiones y sh/sc según diseño.",
+   "Realizar prueba de estanqueidad conforme al refrigerante."
+  ],
+  "fix": "Reparar fuga, verificar hermeticidad, evacuar y cargar por masa.",
+  "check": "Sin fugas y capacidad recuperada después de prueba operativa.",
+  "tools": "Detector de fugas, balanza, manómetros",
+  "warning": "CIRCUITO PRESURIZADO: identificar refrigerante, controlar inflamabilidad y recuperar antes de abrir; nunca ventear.",
+  "keywords": [
+   "fuga",
+   "lenta",
+   "refrigerante",
+   "rendimiento",
+   "progresivamente",
+   "aumenta",
+   "sobrecalentamiento",
+   "microfuga",
+   "unión",
+   "vibración",
+   "corrosión"
+  ],
+  "page": 63
+ },
+ {
+  "id": 52,
+  "title": "Carga insuficiente confirmada",
+  "category": "REFRIGERANTE Y EXPANSIÓN",
+  "symptom": "Evaporador queda subalimentado; capacidad baja.",
+  "causes": [
+   "Pérdida por fuga",
+   "Carga inicial errónea"
+  ],
+  "steps": [
+   "Descartar bajo flujo de aire y restricción.",
+   "Identificar tecnología de expansión.",
+   "Contrastar sh/sc y peso especificado."
+  ],
+  "fix": "Encontrar y reparar fuga antes de recargar; cargar por procedimiento OEM.",
+  "check": "SH/SC y rendimiento acordes a especificación.",
+  "tools": "Manómetros, balanza, sondas",
+  "warning": "CIRCUITO PRESURIZADO: identificar refrigerante, controlar inflamabilidad y recuperar antes de abrir; nunca ventear.",
+  "keywords": [
+   "carga",
+   "insuficiente",
+   "confirmada",
+   "evaporador",
+   "queda",
+   "subalimentado",
+   "capacidad",
+   "baja",
+   "pérdida",
+   "fuga",
+   "inicial",
+   "errónea"
+  ],
+  "page": 64
+ },
+ {
+  "id": 53,
+  "title": "Válvula TXV restringida",
+  "category": "REFRIGERANTE Y EXPANSIÓN",
+  "symptom": "Baja succión y alto sobrecalentamiento estable.",
+  "causes": [
+   "Filtro de entrada obstruido",
+   "Orificio contaminado",
+   "Falla de igualación"
+  ],
+  "steps": [
+   "Revisar filtro-secador y diferencial térmico.",
+   "Comprobar bulbo/equalizador.",
+   "Medir presión de succión y sobrecalentamiento."
+  ],
+  "fix": "Recuperar y limpiar/sustituir TXV o filtro según diagnóstico.",
+  "check": "Alimentación y sobrecalentamiento se estabilizan.",
+  "tools": "Manómetros, termopares",
+  "warning": "CIRCUITO PRESURIZADO: identificar refrigerante, controlar inflamabilidad y recuperar antes de abrir; nunca ventear.",
+  "keywords": [
+   "válvula",
+   "restringida",
+   "baja",
+   "succión",
+   "alto",
+   "sobrecalentamiento",
+   "estable",
+   "filtro",
+   "entrada",
+   "obstruido",
+   "orificio",
+   "contaminado",
+   "igualación"
+  ],
+  "page": 65
+ },
+ {
+  "id": 54,
+  "title": "Bulbo TXV mal fijado",
+  "category": "REFRIGERANTE Y EXPANSIÓN",
+  "symptom": "Sobrecalentamiento oscila y temperatura es errática.",
+  "causes": [
+   "Bulbo suelto",
+   "Sin aislamiento",
+   "Ubicación incorrecta"
+  ],
+  "steps": [
+   "Comprobar posición en línea de succión según oem.",
+   "Revisar contacto térmico y aislamiento.",
+   "Registrar tendencia de sh tras fijación."
+  ],
+  "fix": "Reubicar y aislar bulbo conforme al procedimiento de válvula.",
+  "check": "Sobrecalentamiento estable en varias cargas.",
+  "tools": "Termopar, manómetros",
+  "warning": "CIRCUITO PRESURIZADO: identificar refrigerante, controlar inflamabilidad y recuperar antes de abrir; nunca ventear.",
+  "keywords": [
+   "bulbo",
+   "fijado",
+   "sobrecalentamiento",
+   "oscila",
+   "temperatura",
+   "errática",
+   "suelto",
+   "aislamiento",
+   "ubicación",
+   "incorrecta"
+  ],
+  "page": 66
+ },
+ {
+  "id": 55,
+  "title": "Válvula electrónica EEV trabada",
+  "category": "REFRIGERANTE Y EXPANSIÓN",
+  "symptom": "Control ordena apertura pero alimentación no cambia.",
+  "causes": [
+   "Motor paso a paso",
+   "Obstrucción",
+   "Controlador",
+   "Cable"
+  ],
+  "steps": [
+   "Leer pasos ordenados y alarmas.",
+   "Medir bobinas desconectadas según oem.",
+   "Contrastar respuesta de succión y sh en servicio permitido."
+  ],
+  "fix": "Reparar cable o reemplazar válvula/módulo compatible; calibrar homing.",
+  "check": "EEV sigue consigna y mantiene SH objetivo.",
+  "tools": "Herramienta diagnóstico, multímetro",
+  "warning": "CIRCUITO PRESURIZADO: identificar refrigerante, controlar inflamabilidad y recuperar antes de abrir; nunca ventear.",
+  "keywords": [
+   "válvula",
+   "electrónica",
+   "trabada",
+   "control",
+   "ordena",
+   "apertura",
+   "pero",
+   "alimentación",
+   "cambia",
+   "motor",
+   "paso",
+   "obstrucción",
+   "controlador",
+   "cable"
+  ],
+  "page": 67
+ },
+ {
+  "id": 56,
+  "title": "Filtro deshidratador obstruido",
+  "category": "REFRIGERANTE Y EXPANSIÓN",
+  "symptom": "Caída de presión y enfriamiento localizado en línea líquida.",
+  "causes": [
+   "Humedad",
+   "Partículas",
+   "Saturación de desecante"
+  ],
+  "steps": [
+   "Medir temperatura a ambos lados y caída de presión si hay tomas.",
+   "Comprobar visor según diseño.",
+   "Descartar carga insuficiente."
+  ],
+  "fix": "Recuperar refrigerante, sustituir filtro y efectuar evacuación correcta.",
+  "check": "Caída de presión térmica desaparece y SH/SC es coherente.",
+  "tools": "Sondas, manómetros, vacuómetro",
+  "warning": "CIRCUITO PRESURIZADO: identificar refrigerante, controlar inflamabilidad y recuperar antes de abrir; nunca ventear.",
+  "keywords": [
+   "filtro",
+   "deshidratador",
+   "obstruido",
+   "caída",
+   "presión",
+   "enfriamiento",
+   "localizado",
+   "línea",
+   "líquida",
+   "humedad",
+   "partículas",
+   "saturación",
+   "desecante"
+  ],
+  "page": 68
+ },
+ {
+  "id": 57,
+  "title": "Humedad congela expansión",
+  "category": "REFRIGERANTE Y EXPANSIÓN",
+  "symptom": "Enfriamiento intermitente y retorno espontáneo tras parada.",
+  "causes": [
+   "Vacío insuficiente",
+   "Secador saturado",
+   "Ingreso de humedad"
+  ],
+  "steps": [
+   "Observar patrón cíclico y temperatura de expansión.",
+   "Verificar historial de servicio y prueba de vacío.",
+   "Descartar control electrónico intermitente."
+  ],
+  "fix": "Recuperar, eliminar humedad, cambiar secador y evacuar con medición de micrones.",
+  "check": "Operación continua sin bloqueo periódico.",
+  "tools": "Vacuómetro, sondas, manómetros",
+  "warning": "CIRCUITO PRESURIZADO: identificar refrigerante, controlar inflamabilidad y recuperar antes de abrir; nunca ventear.",
+  "keywords": [
+   "humedad",
+   "congela",
+   "expansión",
+   "enfriamiento",
+   "intermitente",
+   "retorno",
+   "espontáneo",
+   "tras",
+   "parada",
+   "vacío",
+   "insuficiente",
+   "secador",
+   "saturado",
+   "ingreso"
+  ],
+  "page": 69
+ },
+ {
+  "id": 58,
+  "title": "Tubos capilares obstruidos",
+  "category": "REFRIGERANTE Y EXPANSIÓN",
+  "symptom": "Presión de succión cae y enfriamiento casi desaparece.",
+  "causes": [
+   "Contaminación",
+   "Aceite quemado",
+   "Hielo"
+  ],
+  "steps": [
+   "Comprobar limpieza de condensador/evaporador.",
+   "Registrar presión y comportamiento de carga.",
+   "Descartar fuga antes de atribuir a capilar."
+  ],
+  "fix": "Reemplazar capilar/filtro según diseño; limpiar circuito y cargar por peso.",
+  "check": "Temperatura y presión de evaporación acordes a aplicación.",
+  "tools": "Manómetros, balanza, detector fugas",
+  "warning": "CIRCUITO PRESURIZADO: identificar refrigerante, controlar inflamabilidad y recuperar antes de abrir; nunca ventear.",
+  "keywords": [
+   "tubos",
+   "capilares",
+   "obstruidos",
+   "presión",
+   "succión",
+   "enfriamiento",
+   "casi",
+   "desaparece",
+   "contaminación",
+   "aceite",
+   "quemado",
+   "hielo"
+  ],
+  "page": 70
+ },
+ {
+  "id": 59,
+  "title": "Subenfriamiento insuficiente en líquido",
+  "category": "REFRIGERANTE Y EXPANSIÓN",
+  "symptom": "Formación de gas flash y alimentación inestable.",
+  "causes": [
+   "Carga baja",
+   "Línea líquida caliente",
+   "Condensador subdimensionado"
+  ],
+  "steps": [
+   "Medir temperatura y presión de líquido para obtener subenfriamiento.",
+   "Revisar aislación/enrutado y ventilación.",
+   "Comparar con objetivo oem."
+  ],
+  "fix": "Corregir fuga/carga o instalación que calienta línea.",
+  "check": "Subenfriamiento estable en punto de referencia de fabricante.",
+  "tools": "Manómetros, termómetros",
+  "warning": "CIRCUITO PRESURIZADO: identificar refrigerante, controlar inflamabilidad y recuperar antes de abrir; nunca ventear.",
+  "keywords": [
+   "subenfriamiento",
+   "insuficiente",
+   "líquido",
+   "formación",
+   "flash",
+   "alimentación",
+   "inestable",
+   "carga",
+   "baja",
+   "línea",
+   "líquida",
+   "caliente",
+   "condensador",
+   "subdimensionado"
+  ],
+  "page": 71
+ },
+ {
+  "id": 60,
+  "title": "Sobrecalentamiento demasiado bajo",
+  "category": "REFRIGERANTE Y EXPANSIÓN",
+  "symptom": "Succión húmeda y riesgo de retorno de líquido.",
+  "causes": [
+   "Txv muy abierta",
+   "Sonda fallida",
+   "Carga térmica baja"
+  ],
+  "steps": [
+   "Medir sh real en punto especificado.",
+   "Revisar caudal de aire y temperatura de retorno.",
+   "Observar mando de expansión y bulbo."
+  ],
+  "fix": "Corregir alimentación y controles antes de dañar compresor.",
+  "check": "SH se mantiene en rango del fabricante en varios regímenes.",
+  "tools": "Manómetros, sondas",
+  "warning": "CIRCUITO PRESURIZADO: identificar refrigerante, controlar inflamabilidad y recuperar antes de abrir; nunca ventear.",
+  "keywords": [
+   "sobrecalentamiento",
+   "demasiado",
+   "bajo",
+   "succión",
+   "húmeda",
+   "riesgo",
+   "retorno",
+   "líquido",
+   "abierta",
+   "sonda",
+   "fallida",
+   "carga",
+   "térmica",
+   "baja"
+  ],
+  "page": 72
+ },
+ {
+  "id": 61,
+  "title": "Agua gotea de unidad interior",
+  "category": "DRENAJE, AGUA Y CONFORT",
+  "symptom": "Aparece goteo por carcasa durante enfriamiento.",
+  "causes": [
+   "Desagüe bloqueado",
+   "Bandeja fisurada",
+   "Inclinación inadecuada"
+  ],
+  "steps": [
+   "Inspeccionar bandeja con equipo aislado.",
+   "Verificar pendiente y sifón si existe.",
+   "Comprobar desagüe mediante ensayo controlado."
+  ],
+  "fix": "Limpiar drenaje, reparar bandeja o corregir pendiente.",
+  "check": "Evacuación sin retorno ni derrame en ciclo prolongado.",
+  "tools": "Bomba de prueba, nivel",
+  "warning": "AGUA + ELECTRICIDAD: cortar energía cuando haya fugas, bandejas desbordadas o intervenciones en bombas de condensado.",
+  "keywords": [
+   "agua",
+   "gotea",
+   "unidad",
+   "interior",
+   "aparece",
+   "goteo",
+   "carcasa",
+   "durante",
+   "enfriamiento",
+   "desag",
+   "bloqueado",
+   "bandeja",
+   "fisurada",
+   "inclinación",
+   "inadecuada"
+  ],
+  "page": 73
+ },
+ {
+  "id": 62,
+  "title": "Bomba de condensado no arranca",
+  "category": "DRENAJE, AGUA Y CONFORT",
+  "symptom": "Depósito rebalsa y dispara alarma de nivel.",
+  "causes": [
+   "Bomba trabada",
+   "Flotador sucio",
+   "Alimentación ausente"
+  ],
+  "steps": [
+   "Revisar alimentación aislada y fusible.",
+   "Limpiar flotador y sensor.",
+   "Comprobar funcionamiento según test oem."
+  ],
+  "fix": "Limpiar o cambiar bomba y tubería según caudal/altura requeridos.",
+  "check": "Nivel disminuye y alarma desaparece sin rebose.",
+  "tools": "Multímetro, recipiente",
+  "warning": "AGUA + ELECTRICIDAD: cortar energía cuando haya fugas, bandejas desbordadas o intervenciones en bombas de condensado.",
+  "keywords": [
+   "bomba",
+   "condensado",
+   "arranca",
+   "depósito",
+   "rebalsa",
+   "dispara",
+   "alarma",
+   "nivel",
+   "trabada",
+   "flotador",
+   "sucio",
+   "alimentación",
+   "ausente"
+  ],
+  "page": 74
+ },
+ {
+  "id": 63,
+  "title": "Drenaje hace burbujeo y no evacua",
+  "category": "DRENAJE, AGUA Y CONFORT",
+  "symptom": "Agua queda retenida en equipo de presión negativa.",
+  "causes": [
+   "Sifón inexistente",
+   "Altura de sello incorrecta",
+   "Aire aspirado"
+  ],
+  "steps": [
+   "Revisar esquema de drenaje y presión de ventilador.",
+   "Inspeccionar sello de agua y ventilación.",
+   "Verificar pendiente."
+  ],
+  "fix": "Instalar/corregir sifón dimensionado para presión estática.",
+  "check": "Flujo sostenido sin retorno de aire ni agua.",
+  "tools": "Nivel, manómetro diferencial",
+  "warning": "AGUA + ELECTRICIDAD: cortar energía cuando haya fugas, bandejas desbordadas o intervenciones en bombas de condensado.",
+  "keywords": [
+   "drenaje",
+   "hace",
+   "burbujeo",
+   "evacua",
+   "agua",
+   "queda",
+   "retenida",
+   "presión",
+   "negativa",
+   "sifón",
+   "inexistente",
+   "altura",
+   "sello",
+   "incorrecta",
+   "aire",
+   "aspirado"
+  ],
+  "page": 75
+ },
+ {
+  "id": 64,
+  "title": "Olor a humedad desde evaporador",
+  "category": "DRENAJE, AGUA Y CONFORT",
+  "symptom": "Se percibe olor al iniciar ventilador interior.",
+  "causes": [
+   "Biofilm en bandeja/serpentín",
+   "Filtro húmedo",
+   "Retorno contaminado"
+  ],
+  "steps": [
+   "Inspeccionar bandeja y filtros sin aerosolizar suciedad.",
+   "Evaluar drenaje y humedad persistente.",
+   "Revisar ruta de aire nuevo."
+  ],
+  "fix": "Limpiar y desinfectar con químicos autorizados y enjuague correcto; mantener drenaje.",
+  "check": "No reaparece olor y superficies quedan secas al finalizar ciclo.",
+  "tools": "Linterna, termohigrómetro",
+  "warning": "AGUA + ELECTRICIDAD: cortar energía cuando haya fugas, bandejas desbordadas o intervenciones en bombas de condensado.",
+  "keywords": [
+   "olor",
+   "humedad",
+   "evaporador",
+   "percibe",
+   "iniciar",
+   "ventilador",
+   "interior",
+   "biofilm",
+   "bandeja",
+   "serpentín",
+   "filtro",
+   "húmedo",
+   "retorno",
+   "contaminado"
+  ],
+  "page": 76
+ },
+ {
+  "id": 65,
+  "title": "Goteo en tubería de succión",
+  "category": "DRENAJE, AGUA Y CONFORT",
+  "symptom": "Agua condensa fuera del aislamiento de línea fría.",
+  "causes": [
+   "Aislante discontinuo",
+   "Barrera de vapor rota",
+   "Humedad ambiente alta"
+  ],
+  "steps": [
+   "Inspeccionar juntas y espesor de aislante.",
+   "Medir temperatura superficial y punto de rocío ambiente.",
+   "Descartar fuga por condensado de bandeja."
+  ],
+  "fix": "Reparar aislamiento de celda cerrada y sellar barrera de vapor.",
+  "check": "Superficie exterior queda por encima del punto de rocío.",
+  "tools": "Termohigrómetro, termómetro",
+  "warning": "AGUA + ELECTRICIDAD: cortar energía cuando haya fugas, bandejas desbordadas o intervenciones en bombas de condensado.",
+  "keywords": [
+   "goteo",
+   "tubería",
+   "succión",
+   "agua",
+   "condensa",
+   "fuera",
+   "aislamiento",
+   "línea",
+   "fría",
+   "aislante",
+   "discontinuo",
+   "barrera",
+   "vapor",
+   "rota",
+   "humedad",
+   "ambiente",
+   "alta"
+  ],
+  "page": 77
+ },
+ {
+  "id": 66,
+  "title": "Excesiva humedad interior",
+  "category": "DRENAJE, AGUA Y CONFORT",
+  "symptom": "Temperatura se alcanza, pero ambiente sigue pegajoso.",
+  "causes": [
+   "Ventilador demasiado rápido",
+   "Sobredimensionamiento",
+   "Infiltración"
+  ],
+  "steps": [
+   "Medir humedad relativa y temperatura.",
+   "Verificar ciclos cortos y caudal.",
+   "Cuantificar ingreso de aire exterior y carga latente."
+  ],
+  "fix": "Ajustar control/caudal permitido o diseño de ventilación/deshumidificación.",
+  "check": "Humedad y ciclos acordes a objetivo de confort.",
+  "tools": "Termohigrómetro, registrador",
+  "warning": "AGUA + ELECTRICIDAD: cortar energía cuando haya fugas, bandejas desbordadas o intervenciones en bombas de condensado.",
+  "keywords": [
+   "excesiva",
+   "humedad",
+   "interior",
+   "temperatura",
+   "alcanza",
+   "pero",
+   "ambiente",
+   "sigue",
+   "pegajoso",
+   "ventilador",
+   "demasiado",
+   "rápido",
+   "sobredimensionamiento",
+   "infiltración"
+  ],
+  "page": 78
+ },
+ {
+  "id": 67,
+  "title": "Ambiente no alcanza consigna",
+  "category": "DRENAJE, AGUA Y CONFORT",
+  "symptom": "Equipo enfría pero demanda permanece insatisfecha.",
+  "causes": [
+   "Carga térmica superior",
+   "Filtración solar",
+   "Equipo limitado"
+  ],
+  "steps": [
+   "Medir temperaturas exterior/interior y tiempo de operación.",
+   "Revisar capacidad nominal bajo condiciones reales.",
+   "Evaluar infiltraciones y calor interno."
+  ],
+  "fix": "Corregir carga térmica, sellados o dimensionamiento; no recargar refrigerante por intuición.",
+  "check": "Temperatura se estabiliza al disminuir carga o corregir capacidad.",
+  "tools": "Termómetro, registrador",
+  "warning": "AGUA + ELECTRICIDAD: cortar energía cuando haya fugas, bandejas desbordadas o intervenciones en bombas de condensado.",
+  "keywords": [
+   "ambiente",
+   "alcanza",
+   "consigna",
+   "enfría",
+   "pero",
+   "demanda",
+   "permanece",
+   "insatisfecha",
+   "carga",
+   "térmica",
+   "superior",
+   "filtración",
+   "solar",
+   "limitado"
+  ],
+  "page": 79
+ },
+ {
+  "id": 68,
+  "title": "Ciclos muy cortos en split",
+  "category": "DRENAJE, AGUA Y CONFORT",
+  "symptom": "Compresor arranca y se detiene con frecuencia.",
+  "causes": [
+   "Sensor mal ubicado",
+   "Sobredimensionado",
+   "Control o protección"
+  ],
+  "steps": [
+   "Registrar intervalos y códigos.",
+   "Comparar temperatura de retorno con ambiente.",
+   "Revisar ventilación y presiones si se activa protección."
+  ],
+  "fix": "Reubicar sonda permitida o corregir causa de protección/dimensionamiento.",
+  "check": "Ciclos coherentes con carga y temporizaciones OEM.",
+  "tools": "Registrador, termómetro",
+  "warning": "AGUA + ELECTRICIDAD: cortar energía cuando haya fugas, bandejas desbordadas o intervenciones en bombas de condensado.",
+  "keywords": [
+   "ciclos",
+   "cortos",
+   "split",
+   "compresor",
+   "arranca",
+   "detiene",
+   "frecuencia",
+   "sensor",
+   "ubicado",
+   "sobredimensionado",
+   "control",
+   "protección"
+  ],
+  "page": 80
+ },
+ {
+  "id": 69,
+  "title": "Evaporadora vibra y hace ruido",
+  "category": "DRENAJE, AGUA Y CONFORT",
+  "symptom": "Zumbido mecánico aun sin falla de enfriamiento.",
+  "causes": [
+   "Soporte flojo",
+   "Carcasa desajustada",
+   "Turbina desequilibrada"
+  ],
+  "steps": [
+   "Aislar equipo e inspeccionar fijaciones.",
+   "Revisar balance de turbina y silentblocks.",
+   "Verificar que tuberías no toquen chasis."
+  ],
+  "fix": "Fijar soporte, equilibrar/limpiar turbina y separar puntos de contacto.",
+  "check": "No transmite vibración a estructura en todas las velocidades.",
+  "tools": "Nivel, vibrómetro opcional",
+  "warning": "AGUA + ELECTRICIDAD: cortar energía cuando haya fugas, bandejas desbordadas o intervenciones en bombas de condensado.",
+  "keywords": [
+   "evaporadora",
+   "vibra",
+   "hace",
+   "ruido",
+   "zumbido",
+   "mecánico",
+   "enfriamiento",
+   "soporte",
+   "flojo",
+   "carcasa",
+   "desajustada",
+   "turbina",
+   "desequilibrada"
+  ],
+  "page": 81
+ },
+ {
+  "id": 70,
+  "title": "Mal control de temperatura por termostato",
+  "category": "DRENAJE, AGUA Y CONFORT",
+  "symptom": "Lectura de pared difiere del ambiente ocupado.",
+  "causes": [
+   "Sonda en sol directo",
+   "Retorno de aire",
+   "Mala calibración"
+  ],
+  "steps": [
+   "Comparar con instrumento calibrado en punto representativo.",
+   "Revisar ubicación y corrientes de aire.",
+   "Comprobar offset configurable."
+  ],
+  "fix": "Corregir ubicación o calibración siguiendo fabricante.",
+  "check": "Lectura y confort coinciden con medición independiente.",
+  "tools": "Termómetro calibrado",
+  "warning": "AGUA + ELECTRICIDAD: cortar energía cuando haya fugas, bandejas desbordadas o intervenciones en bombas de condensado.",
+  "keywords": [
+   "control",
+   "temperatura",
+   "termostato",
+   "lectura",
+   "pared",
+   "difiere",
+   "ambiente",
+   "ocupado",
+   "sonda",
+   "directo",
+   "retorno",
+   "aire",
+   "mala",
+   "calibración"
+  ],
+  "page": 82
+ },
+ {
+  "id": 71,
+  "title": "Error de comunicación interior-exterior",
+  "category": "INVERTER, SENSORES Y ELECTRÓNICA",
+  "symptom": "Unidades muestran código de comunicación y no arrancan.",
+  "causes": [
+   "Cable de comunicación",
+   "Bornera cruzada",
+   "Placa",
+   "Alimentación"
+  ],
+  "steps": [
+   "Identificar código exacto y topología.",
+   "Revisar continuidad/polaridad de cable con equipo aislado.",
+   "Verificar tensión y señal solo con procedimiento oem."
+  ],
+  "fix": "Reparar cableado y conectores; sustituir placa únicamente por diagnóstico.",
+  "check": "Se establece comunicación y desaparece alarma tras autocomprobación.",
+  "tools": "Manual de servicio, multímetro",
+  "warning": "ALTA TENSIÓN EN INVERTER: el bus DC puede quedar cargado tras desconectar; respetar tiempo y método de verificación OEM.",
+  "keywords": [
+   "error",
+   "comunicación",
+   "interior",
+   "exterior",
+   "unidades",
+   "muestran",
+   "código",
+   "arrancan",
+   "cable",
+   "bornera",
+   "cruzada",
+   "placa",
+   "alimentación"
+  ],
+  "page": 83
+ },
+ {
+  "id": 72,
+  "title": "Inverter indica sobretensión de bus DC",
+  "category": "INVERTER, SENSORES Y ELECTRÓNICA",
+  "symptom": "Bloqueo de potencia en unidad exterior.",
+  "causes": [
+   "Pico de red",
+   "Rectificador",
+   "Capacitor bus",
+   "Frenado/regeneración anómala"
+  ],
+  "steps": [
+   "Registrar código y condiciones de red.",
+   "Inspeccionar conexiones desenergizadas.",
+   "Hacer pruebas de bus exclusivamente según protocolo de alta tensión del fabricante."
+  ],
+  "fix": "Corregir alimentación o reemplazar módulo autorizado; no tocar bus sin descarga y comprobación.",
+  "check": "Arranca sin alarma de DC y corriente estable.",
+  "tools": "Manual OEM, multímetro aislado apropiado",
+  "warning": "ALTA TENSIÓN EN INVERTER: el bus DC puede quedar cargado tras desconectar; respetar tiempo y método de verificación OEM.",
+  "keywords": [
+   "inverter",
+   "indica",
+   "sobretensión",
+   "bloqueo",
+   "potencia",
+   "unidad",
+   "exterior",
+   "pico",
+   "rectificador",
+   "capacitor",
+   "frenado",
+   "regeneración",
+   "anómala"
+  ],
+  "page": 84
+ },
+ {
+  "id": 73,
+  "title": "Inverter indica subtensión de bus DC",
+  "category": "INVERTER, SENSORES Y ELECTRÓNICA",
+  "symptom": "Compresor se desconecta durante carga.",
+  "causes": [
+   "Caída de red",
+   "Contacto resistivo",
+   "Rectificador",
+   "Capacitor envejecido"
+  ],
+  "steps": [
+   "Correlacionar alarma con tensión de alimentación.",
+   "Inspeccionar bornes y fusibles aislados.",
+   "Comparar diagnóstico de módulo con manual."
+  ],
+  "fix": "Reparar red/conexión o módulo de potencia tras confirmar causa.",
+  "check": "Bus funciona en márgenes OEM bajo arranque y carga.",
+  "tools": "Registrador tensión, manual OEM",
+  "warning": "ALTA TENSIÓN EN INVERTER: el bus DC puede quedar cargado tras desconectar; respetar tiempo y método de verificación OEM.",
+  "keywords": [
+   "inverter",
+   "indica",
+   "subtensión",
+   "compresor",
+   "desconecta",
+   "durante",
+   "carga",
+   "caída",
+   "contacto",
+   "resistivo",
+   "rectificador",
+   "capacitor",
+   "envejecido"
+  ],
+  "page": 85
+ },
+ {
+  "id": 74,
+  "title": "Módulo IPM/IGBT averiado",
+  "category": "INVERTER, SENSORES Y ELECTRÓNICA",
+  "symptom": "Unidad inverter bloquea salida al compresor.",
+  "causes": [
+   "Sobrecorriente",
+   "Componente potencia dañado",
+   "Cortocircuito motor"
+  ],
+  "steps": [
+   "Leer códigos y registros.",
+   "Verificar motor y cables con sistema aislado.",
+   "Probar módulo solo con procedimiento técnico oem, sin energizar improvisaciones."
+  ],
+  "fix": "Cambiar IPM/placa compatible y corregir causa de sobrecorriente.",
+  "check": "Autotest exitoso y operación sin alarmas de potencia.",
+  "tools": "Manual fabricante, equipo de servicio",
+  "warning": "ALTA TENSIÓN EN INVERTER: el bus DC puede quedar cargado tras desconectar; respetar tiempo y método de verificación OEM.",
+  "keywords": [
+   "módulo",
+   "igbt",
+   "averiado",
+   "unidad",
+   "inverter",
+   "bloquea",
+   "salida",
+   "compresor",
+   "sobrecorriente",
+   "componente",
+   "potencia",
+   "dañado",
+   "cortocircuito",
+   "motor"
+  ],
+  "page": 86
+ },
+ {
+  "id": 75,
+  "title": "Termistor NTC fuera de rango",
+  "category": "INVERTER, SENSORES Y ELECTRÓNICA",
+  "symptom": "Lectura imposible o código de sensor abierto/corto.",
+  "causes": [
+   "Sonda rota",
+   "Conector oxidado",
+   "Valor incorrecto"
+  ],
+  "steps": [
+   "Desenergizar y desconectar sonda.",
+   "Medir resistencia a temperatura conocida.",
+   "Comparar curva r-t exacta de fabricante."
+  ],
+  "fix": "Cambiar termistor de curva y encapsulado correctos.",
+  "check": "Lectura sigue temperatura real sin errores.",
+  "tools": "Multímetro, termómetro, tabla R-T",
+  "warning": "ALTA TENSIÓN EN INVERTER: el bus DC puede quedar cargado tras desconectar; respetar tiempo y método de verificación OEM.",
+  "keywords": [
+   "termistor",
+   "fuera",
+   "rango",
+   "lectura",
+   "imposible",
+   "código",
+   "sensor",
+   "abierto",
+   "corto",
+   "sonda",
+   "rota",
+   "conector",
+   "oxidado",
+   "valor",
+   "incorrecto"
+  ],
+  "page": 87
+ },
+ {
+  "id": 76,
+  "title": "Sensor de presión electrónico erróneo",
+  "category": "INVERTER, SENSORES Y ELECTRÓNICA",
+  "symptom": "Presión digital no concuerda con manómetro.",
+  "causes": [
+   "Transductor mal calibrado",
+   "Cable",
+   "Alimentación referencia"
+  ],
+  "steps": [
+   "Comprobar transductor y rango nominal.",
+   "Comparar manómetro en punto seguro.",
+   "Verificar alimentación/señal según documentación."
+  ],
+  "fix": "Reparar cable o reemplazar sensor correcto sin puenteos.",
+  "check": "Lectura coincide dentro de tolerancia OEM.",
+  "tools": "Manómetro, multímetro",
+  "warning": "ALTA TENSIÓN EN INVERTER: el bus DC puede quedar cargado tras desconectar; respetar tiempo y método de verificación OEM.",
+  "keywords": [
+   "sensor",
+   "presión",
+   "electrónico",
+   "erróneo",
+   "digital",
+   "concuerda",
+   "manómetro",
+   "transductor",
+   "calibrado",
+   "cable",
+   "alimentación",
+   "referencia"
+  ],
+  "page": 88
+ },
+ {
+  "id": 77,
+  "title": "Ventilador DC exterior reporta bloqueo",
+  "category": "INVERTER, SENSORES Y ELECTRÓNICA",
+  "symptom": "La placa detiene compresor por error de ventilación.",
+  "causes": [
+   "Impulsor trabado",
+   "Motor bldc",
+   "Cable de pulsos"
+  ],
+  "steps": [
+   "Aislar y girar hélice a mano.",
+   "Revisar conectores del motor.",
+   "Usar autotest/códigos y comprobar alimentación sólo según manual."
+  ],
+  "fix": "Eliminar obstrucción o sustituir motor/driver correspondiente.",
+  "check": "Ventilador modula sin error y presión se normaliza.",
+  "tools": "Manual, multímetro",
+  "warning": "ALTA TENSIÓN EN INVERTER: el bus DC puede quedar cargado tras desconectar; respetar tiempo y método de verificación OEM.",
+  "keywords": [
+   "ventilador",
+   "exterior",
+   "reporta",
+   "bloqueo",
+   "placa",
+   "detiene",
+   "compresor",
+   "error",
+   "ventilación",
+   "impulsor",
+   "trabado",
+   "motor",
+   "bldc",
+   "cable",
+   "pulsos"
+  ],
+  "page": 89
+ },
+ {
+  "id": 78,
+  "title": "Compresor inverter no aumenta frecuencia",
+  "category": "INVERTER, SENSORES Y ELECTRÓNICA",
+  "symptom": "Capacidad baja pese a consigna fuerte.",
+  "causes": [
+   "Limitación protectora",
+   "Sensor",
+   "Placa",
+   "Carga térmica"
+  ],
+  "steps": [
+   "Leer frecuencia solicitada y real mediante servicio.",
+   "Revisar códigos de reducción por temperatura/corriente.",
+   "Medir caudal de aire y condiciones frigoríficas."
+  ],
+  "fix": "Corregir la limitación encontrada, sin forzar consignas eléctricas.",
+  "check": "Frecuencia sigue demanda dentro del mapa de operación OEM.",
+  "tools": "Software de servicio, pinza",
+  "warning": "ALTA TENSIÓN EN INVERTER: el bus DC puede quedar cargado tras desconectar; respetar tiempo y método de verificación OEM.",
+  "keywords": [
+   "compresor",
+   "inverter",
+   "aumenta",
+   "frecuencia",
+   "capacidad",
+   "baja",
+   "pese",
+   "consigna",
+   "fuerte",
+   "limitación",
+   "protectora",
+   "sensor",
+   "placa",
+   "carga",
+   "térmica"
+  ],
+  "page": 90
+ },
+ {
+  "id": 79,
+  "title": "Tarjeta electrónica afectada por humedad",
+  "category": "INVERTER, SENSORES Y ELECTRÓNICA",
+  "symptom": "Fallas aleatorias tras lavado o condensación.",
+  "causes": [
+   "Ingreso agua",
+   "Aislamiento insuficiente",
+   "Corrosión"
+  ],
+  "steps": [
+   "Cortar y bloquear energía.",
+   "Inspeccionar evidencias sin tocar capacitores.",
+   "Revisar empaques, drenaje y ruta de condensados."
+  ],
+  "fix": "Secar según protocolo y sustituir placa dañada; eliminar ingreso.",
+  "check": "No se repite alarma tras ciclos y humedad controlada.",
+  "tools": "Inspección visual, manual",
+  "warning": "ALTA TENSIÓN EN INVERTER: el bus DC puede quedar cargado tras desconectar; respetar tiempo y método de verificación OEM.",
+  "keywords": [
+   "tarjeta",
+   "electrónica",
+   "afectada",
+   "humedad",
+   "aleatorias",
+   "tras",
+   "lavado",
+   "condensación",
+   "ingreso",
+   "agua",
+   "aislamiento",
+   "insuficiente",
+   "corrosión"
+  ],
+  "page": 91
+ },
+ {
+  "id": 80,
+  "title": "Falla de firmware o parametrización",
+  "category": "INVERTER, SENSORES Y ELECTRÓNICA",
+  "symptom": "Tras cambio de placa, equipo presenta error de configuración.",
+  "causes": [
+   "Dip/eeprom incorrecto",
+   "Equipo incompatible",
+   "Software no validado"
+  ],
+  "steps": [
+   "Confirmar número de parte.",
+   "Contrastar microinterruptores y parámetros con etiqueta oem.",
+   "Usar herramienta autorizada de parametrización."
+  ],
+  "fix": "Cargar parámetros y versión correctos o instalar placa compatible.",
+  "check": "Reconoce modelo y funciones de prueba pasan correctamente.",
+  "tools": "Herramienta de servicio, manual",
+  "warning": "ALTA TENSIÓN EN INVERTER: el bus DC puede quedar cargado tras desconectar; respetar tiempo y método de verificación OEM.",
+  "keywords": [
+   "firmware",
+   "parametrización",
+   "tras",
+   "cambio",
+   "placa",
+   "presenta",
+   "error",
+   "configuración",
+   "eeprom",
+   "incorrecto",
+   "incompatible",
+   "software",
+   "validado"
+  ],
+  "page": 92
+ },
+ {
+  "id": 81,
+  "title": "Cámara frigorífica no llega a consigna",
+  "category": "REFRIGERACIÓN COMERCIAL Y DESHIELO",
+  "symptom": "Temperatura de producto se mantiene por encima de objetivo.",
+  "causes": [
+   "Alta infiltración",
+   "Hielo",
+   "Carga excesiva",
+   "Circuito refrigerante"
+  ],
+  "steps": [
+   "Registrar temperatura aire/producto y apertura de puertas.",
+   "Inspeccionar evaporador y deshielo.",
+   "Revisar capacidad y parámetros de control."
+  ],
+  "fix": "Eliminar infiltración/escarcha y corregir falla frigorífica confirmada.",
+  "check": "Temperatura de producto cumple especificación de conservación.",
+  "tools": "Registrador, manómetros",
+  "warning": "CADENA DE FRÍO: documentar tiempo y temperatura del producto; no borrar alarmas ni anular dispositivos de seguridad.",
+  "keywords": [
+   "cámara",
+   "frigorífica",
+   "llega",
+   "consigna",
+   "temperatura",
+   "producto",
+   "mantiene",
+   "encima",
+   "objetivo",
+   "alta",
+   "infiltración",
+   "hielo",
+   "carga",
+   "excesiva",
+   "circuito",
+   "refrigerante"
+  ],
+  "page": 93
+ },
+ {
+  "id": 82,
+  "title": "Evaporador bloqueado por hielo",
+  "category": "REFRIGERACIÓN COMERCIAL Y DESHIELO",
+  "symptom": "Flujo de cámara disminuye tras varios días.",
+  "causes": [
+   "Deshielo insuficiente",
+   "Resistencia abierta",
+   "Puerta infiltrada"
+  ],
+  "steps": [
+   "Revisar cronograma y final de deshielo.",
+   "Medir resistencias aisladas.",
+   "Comprobar sello de puerta y drenaje."
+  ],
+  "fix": "Restablecer secuencia de deshielo y estanqueidad.",
+  "check": "No se acumula hielo tras ciclos repetidos.",
+  "tools": "Multímetro, termómetro",
+  "warning": "CADENA DE FRÍO: documentar tiempo y temperatura del producto; no borrar alarmas ni anular dispositivos de seguridad.",
+  "keywords": [
+   "evaporador",
+   "bloqueado",
+   "hielo",
+   "flujo",
+   "cámara",
+   "disminuye",
+   "tras",
+   "varios",
+   "días",
+   "deshielo",
+   "insuficiente",
+   "resistencia",
+   "abierta",
+   "puerta",
+   "infiltrada"
+  ],
+  "page": 94
+ },
+ {
+  "id": 83,
+  "title": "Resistencia de deshielo abierta",
+  "category": "REFRIGERACIÓN COMERCIAL Y DESHIELO",
+  "symptom": "Ciclo se programa pero serpentín no descongela.",
+  "causes": [
+   "Elemento abierto",
+   "Fusible térmico",
+   "Contactor"
+  ],
+  "steps": [
+   "Comprobar orden del controlador.",
+   "Con equipo aislado medir continuidad de resistencia.",
+   "Revisar limitador y fusible según esquema."
+  ],
+  "fix": "Reemplazar elemento o protección por especificación exacta tras encontrar causa.",
+  "check": "Deshielo elimina hielo sin sobretemperatura.",
+  "tools": "Multímetro, pinza",
+  "warning": "CADENA DE FRÍO: documentar tiempo y temperatura del producto; no borrar alarmas ni anular dispositivos de seguridad.",
+  "keywords": [
+   "resistencia",
+   "deshielo",
+   "abierta",
+   "ciclo",
+   "programa",
+   "pero",
+   "serpentín",
+   "descongela",
+   "elemento",
+   "abierto",
+   "fusible",
+   "térmico",
+   "contactor"
+  ],
+  "page": 95
+ },
+ {
+  "id": 84,
+  "title": "Sensor de fin de deshielo defectuoso",
+  "category": "REFRIGERACIÓN COMERCIAL Y DESHIELO",
+  "symptom": "Deshielo termina demasiado pronto o tarda en exceso.",
+  "causes": [
+   "Ntc descalibrada",
+   "Mala posición",
+   "Conexión"
+  ],
+  "steps": [
+   "Comparar lectura con termómetro sobre serpentín.",
+   "Contrastar curva del sensor.",
+   "Verificar instalación y cableado."
+  ],
+  "fix": "Corregir sonda y ubicación; parametrizar fin de deshielo OEM.",
+  "check": "Termina a temperatura prevista sin recongelación excesiva.",
+  "tools": "Termómetro, multímetro",
+  "warning": "CADENA DE FRÍO: documentar tiempo y temperatura del producto; no borrar alarmas ni anular dispositivos de seguridad.",
+  "keywords": [
+   "sensor",
+   "deshielo",
+   "defectuoso",
+   "termina",
+   "demasiado",
+   "pronto",
+   "tarda",
+   "exceso",
+   "descalibrada",
+   "mala",
+   "posición",
+   "conexión"
+  ],
+  "page": 96
+ },
+ {
+  "id": 85,
+  "title": "Puerta de cámara no sella",
+  "category": "REFRIGERACIÓN COMERCIAL Y DESHIELO",
+  "symptom": "Compresor trabaja continuo y aparece hielo alrededor de puerta.",
+  "causes": [
+   "Burlete dañado",
+   "Bisagra desalineada",
+   "Resistencia marco fallida"
+  ],
+  "steps": [
+   "Revisar contacto del empaque.",
+   "Inspeccionar escarcha y entrada de aire.",
+   "Medir temperatura de marco y estado de calefacción donde exista."
+  ],
+  "fix": "Reemplazar burlete o ajustar puerta; reparar calefacción según diseño.",
+  "check": "Puerta sella y disminuye escarcha/infiltración.",
+  "tools": "Termómetro, inspección visual",
+  "warning": "CADENA DE FRÍO: documentar tiempo y temperatura del producto; no borrar alarmas ni anular dispositivos de seguridad.",
+  "keywords": [
+   "puerta",
+   "cámara",
+   "sella",
+   "compresor",
+   "trabaja",
+   "continuo",
+   "aparece",
+   "hielo",
+   "alrededor",
+   "burlete",
+   "dañado",
+   "bisagra",
+   "desalineada",
+   "resistencia",
+   "marco",
+   "fallida"
+  ],
+  "page": 97
+ },
+ {
+  "id": 86,
+  "title": "Ventilador de evaporador comercial no enciende",
+  "category": "REFRIGERACIÓN COMERCIAL Y DESHIELO",
+  "symptom": "Producto calienta pese a serpentín frío.",
+  "causes": [
+   "Retardo post-des hielo",
+   "Motor",
+   "Interruptor puerta"
+  ],
+  "steps": [
+   "Verificar tiempo de retardo y sonda.",
+   "Comprobar contacto de puerta.",
+   "Evaluar motor y alimentación con procedimientos seguros."
+  ],
+  "fix": "Corregir lógica de control o motor, manteniendo protección por hielo.",
+  "check": "Flujo recuperado sin proyectar gotas al producto.",
+  "tools": "Multímetro, controlador",
+  "warning": "CADENA DE FRÍO: documentar tiempo y temperatura del producto; no borrar alarmas ni anular dispositivos de seguridad.",
+  "keywords": [
+   "ventilador",
+   "evaporador",
+   "comercial",
+   "enciende",
+   "producto",
+   "calienta",
+   "pese",
+   "serpentín",
+   "frío",
+   "retardo",
+   "post",
+   "hielo",
+   "motor",
+   "interruptor",
+   "puerta"
+  ],
+  "page": 98
+ },
+ {
+  "id": 87,
+  "title": "Válvula solenoide de líquido no abre",
+  "category": "REFRIGERACIÓN COMERCIAL Y DESHIELO",
+  "symptom": "Compresor opera pero evaporador no recibe refrigerante.",
+  "causes": [
+   "Bobina sin señal",
+   "Núcleo trabado",
+   "Filtro obstruido"
+  ],
+  "steps": [
+   "Comprobar orden de termostato y bobina.",
+   "Medir continuidad aislada.",
+   "Verificar caída térmica/presión alrededor de válvula."
+  ],
+  "fix": "Reemplazar bobina o cuerpo compatible tras confirmar obstrucción.",
+  "check": "Circula líquido y se mantiene control de temperatura.",
+  "tools": "Multímetro, sondas, manómetros",
+  "warning": "CADENA DE FRÍO: documentar tiempo y temperatura del producto; no borrar alarmas ni anular dispositivos de seguridad.",
+  "keywords": [
+   "válvula",
+   "solenoide",
+   "líquido",
+   "abre",
+   "compresor",
+   "opera",
+   "pero",
+   "evaporador",
+   "recibe",
+   "refrigerante",
+   "bobina",
+   "señal",
+   "núcleo",
+   "trabado",
+   "filtro",
+   "obstruido"
+  ],
+  "page": 99
+ },
+ {
+  "id": 88,
+  "title": "Control pump-down no se completa",
+  "category": "REFRIGERACIÓN COMERCIAL Y DESHIELO",
+  "symptom": "Compresor no para o trabaja con succión muy baja.",
+  "causes": [
+   "Solenoide con fuga",
+   "Presostato mal ajustado",
+   "Válvula paso"
+  ],
+  "steps": [
+   "Revisar lógica del diseño.",
+   "Observar cierre de solenoide y tendencia de succión.",
+   "Comprobar presostato dentro de límites previstos."
+  ],
+  "fix": "Reparar solenoide/control sin forzar vacío indebido.",
+  "check": "Secuencia pump-down corta en setpoint de diseño.",
+  "tools": "Manómetros, controlador",
+  "warning": "CADENA DE FRÍO: documentar tiempo y temperatura del producto; no borrar alarmas ni anular dispositivos de seguridad.",
+  "keywords": [
+   "control",
+   "pump",
+   "down",
+   "completa",
+   "compresor",
+   "trabaja",
+   "succión",
+   "baja",
+   "solenoide",
+   "fuga",
+   "presostato",
+   "ajustado",
+   "válvula",
+   "paso"
+  ],
+  "page": 100
+ },
+ {
+  "id": 89,
+  "title": "Alarma de alta temperatura tras corte",
+  "category": "REFRIGERACIÓN COMERCIAL Y DESHIELO",
+  "symptom": "Cámara avisa aun cuando volvió la energía.",
+  "causes": [
+   "Producto calentado",
+   "Puerta abierta",
+   "Registro no reconocido"
+  ],
+  "steps": [
+   "Revisar histórico de duración de corte.",
+   "Medir temperatura de producto, no sólo aire.",
+   "Verificar recuperación y alarmas."
+  ],
+  "fix": "Aplicar protocolo de calidad alimentaria y restablecer condiciones; no borrar trazabilidad.",
+  "check": "Producto cumple límites de inocuidad definidos por responsable.",
+  "tools": "Registrador, termómetro calibrado",
+  "warning": "CADENA DE FRÍO: documentar tiempo y temperatura del producto; no borrar alarmas ni anular dispositivos de seguridad.",
+  "keywords": [
+   "alarma",
+   "alta",
+   "temperatura",
+   "tras",
+   "corte",
+   "cámara",
+   "avisa",
+   "volvió",
+   "energía",
+   "producto",
+   "calentado",
+   "puerta",
+   "abierta",
+   "registro",
+   "reconocido"
+  ],
+  "page": 101
+ },
+ {
+  "id": 90,
+  "title": "Condensador de vitrina bloqueado",
+  "category": "REFRIGERACIÓN COMERCIAL Y DESHIELO",
+  "symptom": "Equipo consume más y deja de enfriar en comercio.",
+  "causes": [
+   "Pelusa en base",
+   "Ventilador tapado",
+   "Mala ventilación"
+  ],
+  "steps": [
+   "Inspeccionar condensador accesible.",
+   "Verificar funcionamiento del ventilador.",
+   "Medir temperatura de aire de ingreso y descarga."
+  ],
+  "fix": "Limpiar y dejar separaciones requeridas; proteger circuitos durante lavado.",
+  "check": "Temperatura de producto y consumo recuperados.",
+  "tools": "Cepillo, termómetro, pinza",
+  "warning": "CADENA DE FRÍO: documentar tiempo y temperatura del producto; no borrar alarmas ni anular dispositivos de seguridad.",
+  "keywords": [
+   "condensador",
+   "vitrina",
+   "bloqueado",
+   "consume",
+   "deja",
+   "enfriar",
+   "comercio",
+   "pelusa",
+   "base",
+   "ventilador",
+   "tapado",
+   "mala",
+   "ventilación"
+  ],
+  "page": 102
+ },
+ {
+  "id": 91,
+  "title": "Chiller alarma por bajo caudal",
+  "category": "CHILLERS, BOMBAS Y SISTEMAS HIDRÁULICOS",
+  "symptom": "Unidad se bloquea aunque el compresor esté disponible.",
+  "causes": [
+   "Bomba detenida",
+   "Filtro y obstruido",
+   "Válvula cerrada"
+  ],
+  "steps": [
+   "Leer estado del flow switch sin puentearlo.",
+   "Medir presiones a ambos lados del filtro.",
+   "Comprobar válvulas, giro y curva de bomba."
+  ],
+  "fix": "Restaurar caudal y verificar control de flujo.",
+  "check": "Caudal/delta P cumplen mínimos del evaporador OEM.",
+  "tools": "Manómetro diferencial, controlador",
+  "warning": "EQUIPOS HIDRÓNICOS: antes de abrir filtros/bombas, despresurizar y aislar agua y electricidad; aplicar bloqueo.",
+  "keywords": [
+   "chiller",
+   "alarma",
+   "bajo",
+   "caudal",
+   "unidad",
+   "bloquea",
+   "aunque",
+   "compresor",
+   "esté",
+   "disponible",
+   "bomba",
+   "detenida",
+   "filtro",
+   "obstruido",
+   "válvula",
+   "cerrada"
+  ],
+  "page": 103
+ },
+ {
+  "id": 92,
+  "title": "Bomba de agua gira sin entregar caudal",
+  "category": "CHILLERS, BOMBAS Y SISTEMAS HIDRÁULICOS",
+  "symptom": "Motor funciona pero tubería casi no circula.",
+  "causes": [
+   "Aire en succión",
+   "Impulsor dañado",
+   "Giro invertido",
+   "Válvula cerrada"
+  ],
+  "steps": [
+   "Comparar presión succión/descarga.",
+   "Revisar cebado, niveles y válvulas.",
+   "Confirmar giro según placa con equipo seguro."
+  ],
+  "fix": "Corregir cebado, válvulas, giro o impulsor según diagnóstico.",
+  "check": "Punto de operación coincide con curva bomba.",
+  "tools": "Manómetros, pinza",
+  "warning": "EQUIPOS HIDRÓNICOS: antes de abrir filtros/bombas, despresurizar y aislar agua y electricidad; aplicar bloqueo.",
+  "keywords": [
+   "bomba",
+   "agua",
+   "gira",
+   "entregar",
+   "caudal",
+   "motor",
+   "funciona",
+   "pero",
+   "tubería",
+   "casi",
+   "circula",
+   "aire",
+   "succión",
+   "impulsor",
+   "dañado",
+   "giro",
+   "invertido",
+   "válvula",
+   "cerrada"
+  ],
+  "page": 104
+ },
+ {
+  "id": 93,
+  "title": "Bomba cavita",
+  "category": "CHILLERS, BOMBAS Y SISTEMAS HIDRÁULICOS",
+  "symptom": "Ruido de grava y caída fluctuante de caudal.",
+  "causes": [
+   "Npsh insuficiente",
+   "Filtro succión obstruido",
+   "Agua caliente"
+  ],
+  "steps": [
+   "Medir presión de succión y temperatura.",
+   "Revisar nivel, longitud, accesorios y aire entrante.",
+   "Comparar npsh disponible/requerido."
+  ],
+  "fix": "Eliminar restricción o elevar presión estática; rediseñar succión si necesario.",
+  "check": "Ruido desaparece y se estabiliza presión/caudal.",
+  "tools": "Manómetro, termómetro, vibrómetro",
+  "warning": "EQUIPOS HIDRÓNICOS: antes de abrir filtros/bombas, despresurizar y aislar agua y electricidad; aplicar bloqueo.",
+  "keywords": [
+   "bomba",
+   "cavita",
+   "ruido",
+   "grava",
+   "caída",
+   "fluctuante",
+   "caudal",
+   "npsh",
+   "insuficiente",
+   "filtro",
+   "succión",
+   "obstruido",
+   "agua",
+   "caliente"
+  ],
+  "page": 105
+ },
+ {
+  "id": 94,
+  "title": "Filtro Y hidráulico tapado",
+  "category": "CHILLERS, BOMBAS Y SISTEMAS HIDRÁULICOS",
+  "symptom": "Se eleva pérdida de carga y baja transferencia térmica.",
+  "causes": [
+   "Lodos",
+   "Óxido",
+   "Mantenimiento insuficiente"
+  ],
+  "steps": [
+   "Medir presión diferencial a través del colador.",
+   "Identificar válvulas de aislamiento.",
+   "Inspeccionar malla con circuito seguro y sin presión."
+  ],
+  "fix": "Limpiar o sustituir malla y tratar calidad de agua.",
+  "check": "Delta P del filtro vuelve al valor esperado.",
+  "tools": "Manómetro diferencial",
+  "warning": "EQUIPOS HIDRÓNICOS: antes de abrir filtros/bombas, despresurizar y aislar agua y electricidad; aplicar bloqueo.",
+  "keywords": [
+   "filtro",
+   "hidráulico",
+   "tapado",
+   "eleva",
+   "pérdida",
+   "carga",
+   "baja",
+   "transferencia",
+   "térmica",
+   "lodos",
+   "óxido",
+   "mantenimiento",
+   "insuficiente"
+  ],
+  "page": 106
+ },
+ {
+  "id": 95,
+  "title": "Intercambiador de placas incrustado",
+  "category": "CHILLERS, BOMBAS Y SISTEMAS HIDRÁULICOS",
+  "symptom": "Chiller tiene alto approach y bajo rendimiento.",
+  "causes": [
+   "Sarro",
+   "Lodos",
+   "Bioincrustación"
+  ],
+  "steps": [
+   "Registrar temperaturas y caudales entrada/salida.",
+   "Calcular approach con condiciones comparables.",
+   "Medir caída de presión lado agua."
+  ],
+  "fix": "Programar limpieza CIP compatible con materiales y procedimiento OEM.",
+  "check": "Approach y delta P mejoran con igual carga.",
+  "tools": "Sondas calibradas, caudalímetro",
+  "warning": "EQUIPOS HIDRÓNICOS: antes de abrir filtros/bombas, despresurizar y aislar agua y electricidad; aplicar bloqueo.",
+  "keywords": [
+   "intercambiador",
+   "placas",
+   "incrustado",
+   "chiller",
+   "tiene",
+   "alto",
+   "approach",
+   "bajo",
+   "rendimiento",
+   "sarro",
+   "lodos",
+   "bioincrustación"
+  ],
+  "page": 107
+ },
+ {
+  "id": 96,
+  "title": "Válvula de dos vías no modula",
+  "category": "CHILLERS, BOMBAS Y SISTEMAS HIDRÁULICOS",
+  "symptom": "Zona queda sobreenfriada o sin caudal.",
+  "causes": [
+   "Actuador dañado",
+   "Señal bms",
+   "Vástago trabado"
+  ],
+  "steps": [
+   "Comparar consigna y real.",
+   "Revisar señal 0-10 v/4-20 ma donde aplique.",
+   "Verificar movimiento con método oem."
+  ],
+  "fix": "Reparar actuador/válvula y calibrar carrera/control.",
+  "check": "Caudal y temperatura siguen demanda de zona.",
+  "tools": "Multímetro, BMS",
+  "warning": "EQUIPOS HIDRÓNICOS: antes de abrir filtros/bombas, despresurizar y aislar agua y electricidad; aplicar bloqueo.",
+  "keywords": [
+   "válvula",
+   "vías",
+   "modula",
+   "zona",
+   "queda",
+   "sobreenfriada",
+   "caudal",
+   "actuador",
+   "dañado",
+   "señal",
+   "vástago",
+   "trabado"
+  ],
+  "page": 108
+ },
+ {
+  "id": 97,
+  "title": "Aire atrapado en circuito de agua",
+  "category": "CHILLERS, BOMBAS Y SISTEMAS HIDRÁULICOS",
+  "symptom": "Gorgoteo, bombas inestables y radiadores sin transferencia.",
+  "causes": [
+   "Purgado deficiente",
+   "Presión de llenado baja",
+   "Fugas"
+  ],
+  "steps": [
+   "Comprobar presión estática y ubicación de purgadores.",
+   "Revisar puntos altos.",
+   "Buscar fugas antes de rellenar."
+  ],
+  "fix": "Purgar según procedimiento y corregir presión/estanqueidad.",
+  "check": "Caudal silencioso y presiones estables.",
+  "tools": "Manómetro, registro de llenado",
+  "warning": "EQUIPOS HIDRÓNICOS: antes de abrir filtros/bombas, despresurizar y aislar agua y electricidad; aplicar bloqueo.",
+  "keywords": [
+   "aire",
+   "atrapado",
+   "circuito",
+   "agua",
+   "gorgoteo",
+   "bombas",
+   "inestables",
+   "radiadores",
+   "transferencia",
+   "purgado",
+   "deficiente",
+   "presión",
+   "llenado",
+   "baja",
+   "fugas"
+  ],
+  "page": 109
+ },
+ {
+  "id": 98,
+  "title": "Bomba consume corriente excesiva",
+  "category": "CHILLERS, BOMBAS Y SISTEMAS HIDRÁULICOS",
+  "symptom": "Protección térmica actúa al aumentar caudal.",
+  "causes": [
+   "Sobrecarga hidráulica",
+   "Desalineación",
+   "Tensión anómala"
+  ],
+  "steps": [
+   "Registrar corriente por fase y tensión.",
+   "Verificar punto de bomba sobre curva.",
+   "Revisar rodamientos, acople y válvulas."
+  ],
+  "fix": "Corregir punto de operación o condición mecánica, sin alterar protecciones.",
+  "check": "Corrientes y temperatura están bajo límite nominal.",
+  "tools": "Pinza True RMS, manómetros",
+  "warning": "EQUIPOS HIDRÓNICOS: antes de abrir filtros/bombas, despresurizar y aislar agua y electricidad; aplicar bloqueo.",
+  "keywords": [
+   "bomba",
+   "consume",
+   "corriente",
+   "excesiva",
+   "protección",
+   "térmica",
+   "actúa",
+   "aumentar",
+   "caudal",
+   "sobrecarga",
+   "hidráulica",
+   "desalineación",
+   "tensión",
+   "anómala"
+  ],
+  "page": 110
+ },
+ {
+  "id": 99,
+  "title": "Chiller con bajo delta T",
+  "category": "CHILLERS, BOMBAS Y SISTEMAS HIDRÁULICOS",
+  "symptom": "La diferencia de agua fría de ida/retorno es menor a diseño.",
+  "causes": [
+   "Exceso de caudal",
+   "Bypass abierto",
+   "Carga parcial",
+   "Válvulas mal controladas"
+  ],
+  "steps": [
+   "Medir temperaturas simultáneas y caudal.",
+   "Verificar bypass y válvulas de zona.",
+   "Comparar tonelaje real con demanda."
+  ],
+  "fix": "Balancear hidráulica y corregir secuencia de control.",
+  "check": "Delta T y capacidad de enfriamiento son coherentes con carga.",
+  "tools": "Termómetros, caudalímetro, BMS",
+  "warning": "EQUIPOS HIDRÓNICOS: antes de abrir filtros/bombas, despresurizar y aislar agua y electricidad; aplicar bloqueo.",
+  "keywords": [
+   "chiller",
+   "bajo",
+   "delta",
+   "diferencia",
+   "agua",
+   "fría",
+   "retorno",
+   "menor",
+   "diseño",
+   "exceso",
+   "caudal",
+   "bypass",
+   "abierto",
+   "carga",
+   "parcial",
+   "válvulas",
+   "controladas"
+  ],
+  "page": 111
+ },
+ {
+  "id": 100,
+  "title": "Consumo eléctrico HVAC excesivo",
+  "category": "CHILLERS, BOMBAS Y SISTEMAS HIDRÁULICOS",
+  "symptom": "Factura energética crece sin mayor servicio de frío.",
+  "causes": [
+   "Serpentines sucios",
+   "Control horario malo",
+   "Compresión ineficiente"
+  ],
+  "steps": [
+   "Registrar kw/kwh y horas.",
+   "Analizar presiones/temperaturas/caudales.",
+   "Comparar eficiencia normalizada a carga y ambiente."
+  ],
+  "fix": "Optimizar limpieza, consignas, secuencias y componentes confirmados.",
+  "check": "kWh por servicio útil disminuye sin perder confort.",
+  "tools": "Analizador de energía, registrador",
+  "warning": "EQUIPOS HIDRÓNICOS: antes de abrir filtros/bombas, despresurizar y aislar agua y electricidad; aplicar bloqueo.",
+  "keywords": [
+   "consumo",
+   "eléctrico",
+   "hvac",
+   "excesivo",
+   "factura",
+   "energética",
+   "crece",
+   "mayor",
+   "servicio",
+   "frío",
+   "serpentines",
+   "sucios",
+   "control",
+   "horario",
+   "malo",
+   "compresión",
+   "ineficiente"
+  ],
+  "page": 112
+ }
+]

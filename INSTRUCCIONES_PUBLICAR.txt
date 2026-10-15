@@ -1,0 +1,13 @@
+ClimaIQ 2.1 - Carlos Calderon | GitHub Pages
+
+PUBLICAR GRATIS DESDE PC (SIN INSTALAR PROGRAMAS)
+1. Entra a https://github.com/signup y crea cuenta gratuita, si no tienes una.
+2. En https://github.com/new crea repositorio de nombre climaiq, VISIBILIDAD PUBLIC, selecciona Add a README.
+3. En el repositorio selecciona Add file > Upload files.
+4. Arrastra TODOS LOS ARCHIVOS Y LA CARPETA assets DENTRO de esta carpeta descomprimida, no la carpeta contenedora.
+5. Pulsa Commit changes. La raiz del repositorio debe contener index.html, app.js, styles.css, etc.
+6. Abre Settings > Pages > Build and deployment; Source: Deploy from a branch; Branch main; Folder /(root); Save.
+7. Espera a que GitHub Pages muestre el enlace: https://USUARIO.github.io/climaiq/ (tu usuario real, no la palabra USUARIO).
+8. Abre ese enlace en Safari de iPhone. Pulsa Compartir > Añadir a pantalla de inicio.
+
+IMPORTANTE: el repositorio es publico. No subas claves de IA, contrasenas ni registros de clientes. La app guarda los datos localmente en cada dispositivo. La IA de internet requiere servidor seguro aparte.
